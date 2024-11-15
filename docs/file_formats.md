@@ -25,7 +25,7 @@ images are decompressed from JPEG/PNG formats in CPU memory then uploaded into V
 The \ref z0::ZScene class can load files in the ZeroZero's ZScene file format with \ref z0::Loader::load.<br>
 It's a binary file format created to allow textures to be loaded directly into VRAM in
 BCn compressed formats, decreasing both the loading times and the VRAM usage.<br>
-The [gltf2zscene](https://github.com/HenriMichelon/gltf2zscene) tools can be used to convert
+The `gltf2zscene` tools can be used to convert
 glTF files to ZScene files.<br>
 Since this files can be used as resources files in the JSON scenes files, glTF and Zscene files can be interchanged without modifying code or JSON scene files 
 (except from the file name extension), allowing the use of glTF files during the creation phase
