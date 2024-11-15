@@ -23,7 +23,7 @@ and the Blender's nodes.
 ### Scene properties
 The ZeroZero scene properties are located in the *ZeroZero project* section
 of the Blender scene properties :
-![ZeroZero Scene properties](blender_add_on_scene.png)
+![ZeroZero Scene properties](images/blender_add_on_scene.png)
 <br>
 
 The following properties can be edited :
@@ -33,7 +33,7 @@ The following properties can be edited :
 - *Export to ZScene* : convert the exported GLB file to a ZScene file then delete the GLB
 - *gltf2zscene* : the directory of the gltf2zscene executable
 - *Format* : compression format for color textures 
-- *Threads* : number of threads for gltf2zscene executable (0 = auto)
+- *Threads* : number of threads for image conversion with gltf2zscene (0 = auto)
 <br>
 
 The *Export as ZeroZero scene* button exports the Blender scene in JSON+GLB format.<br> 
@@ -46,16 +46,16 @@ Refers to [File formats](002_file_formats.md) for the description of the file fo
 #### All nodes
 The ZeroZero node properties are located in the *ZeroZero Node* section
 of the Blender node properties :
-![ZeroZero Node properties](blender_add_on_node.png)
+![ZeroZero Node properties](images/blender_add_on_node.png)
 <br>
 
 Here you can change the node class with a ZeroZero built-in class or
 input a custom class name (must be registered with the `Z0_REGISTER_TYPE`macro in the game).<br>
 
 You can add a property with the *Add Custom Property* button. 
-Each property must have a *Name* and a *Value*. `$$` can be used in the *Value* field to refer to the selected node name.
+Each property must have a *Name* and a *Value*. The variable `$$` can be used in the *Value* field to refer to the selected node name.
 This properties must be supported by the `setProperty` function of the
-corresponding class.
+corresponding class (including inheritance).
 <br>
 
 The following objects properties are exported in the GLB or ZScene file, you don't have to add them :
@@ -80,4 +80,4 @@ The following blender properties are used during the export :
 You can add *Empty*, *Plain axes* nodes in blender to add any ZeroZero node in 
 the final scene.<br>
 Example for a \ref z0::Environment node :<br>
-![Environement node](blender_add_on_empty.png)
+![Environement node](images/blender_add_on_empty.png)

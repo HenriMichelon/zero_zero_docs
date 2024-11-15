@@ -2,7 +2,7 @@ var NAVTREE =
 [
   [ "ZeroZero", "index.html", [
     [ "User documentation", "index.html", null ],
-    [ "Coordinates system", "md_001_coordinate_system.html", null ],
+    [ "Coordinate system", "md_001_coordinate_system.html", null ],
     [ "Supported file formats", "md_002_file_formats.html", null ],
     [ "Blender Add-on", "md_003_blender_add_on.html", null ],
     [ "Namespaces", "namespaces.html", [

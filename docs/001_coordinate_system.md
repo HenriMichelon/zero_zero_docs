@@ -1,5 +1,5 @@
-Coordinates system
+Coordinate system
 ===========================================================================
 **ZeroZero** use a right-handled, y-up coordinate system :
 
-![Coordinates system](coordinate_system.png)
+![Coordinate system](images/coordinate_system.png)

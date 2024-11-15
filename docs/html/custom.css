@@ -3,6 +3,18 @@
     text-align: center;
 }
 
+h2:before {
+    content: "⎸";
+}
+
+h2:after {
+    content: "⎹";
+}
+
+h3:before {
+    content: "‣";
+}
+
 @media (prefers-color-scheme: dark) {
     html:not(.light-mode) {
     --primary-color: #7aa2f7;
