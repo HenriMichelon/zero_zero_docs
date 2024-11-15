@@ -2,8 +2,9 @@ var NAVTREE =
 [
   [ "ZeroZero", "index.html", [
     [ "User documentation", "index.html", null ],
-    [ "Coordinates system", "md_coordinate_system.html", null ],
-    [ "Supported file formats", "md_file_formats.html", null ],
+    [ "Coordinates system", "md_001_coordinate_system.html", null ],
+    [ "Supported file formats", "md_002_file_formats.html", null ],
+    [ "Blender Add-on", "md_003_blender_add_on.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", [
         [ "z0", "namespacez0.html", null ]
@@ -769,7 +770,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classz0_1_1InputEventMouse.html#a1da8aa3a43aa06db29c286dc0a87987a",
-"structz0_1_1ApplicationConfig.html#a700d35d0393b2394ec9062bb800f5464"
+"structz0_1_1ApplicationConfig.html#a60cc5e64d1f06dd1fae4da5ca38d85a4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
