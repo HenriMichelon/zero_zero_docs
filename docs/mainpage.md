@@ -3,35 +3,50 @@ User documentation
 
 ZeroZero is an experimental 3D engine based on [Vulkan 1.3](https://www.vulkan.org/) and [Jolt 5.x](https://github.com/jrouwe/JoltPhysics) made in Modern C++ for learning purpose.
 
-- [GitHub repository](https://github.com/HenriMichelon/zero_zero) 
-- [Class list](annotated.html)
-- [Coordinate system](001_coordinate_system.md)
-- [Supported file formats](002_file_formats.md)
-- [Blender Add-on](003_blender_add_on.md)
-
 Released under the [MIT license](https://raw.githubusercontent.com/HenriMichelon/zero_zero/main/LICENSE.txt).
 
-Building ZeroZero
+Features
 ---------------------------------------------------------------------------
-### Install the mandatory  dependencies
-- [Vulkan SDK 1.3.x+](https://vulkan.lunarg.com/)
+Some of the features actually implemented or under construction :
 
-### Install the build tools
-For Microsoft Windows :
-- [LLVM 19+](https://github.com/mstorsjo/llvm-mingw/releases) or [MSVC 19+ (VS 2022)](https://visualstudio.microsoft.com/fr/)
-- [CMake 3.29+](https://cmake.org/download/) ([Visual Studio](https://learn.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-170)) with a [build tool](https://github.com/ninja-build/ninja/releases)
-
-For Linux and macOS :
-we are waiting for your push request for ZeroZero porting to Linux and macOS.
-
-### Build the shared library
-- `cmake -B build -G Ninja -D CMAKE_BUILD_TYPE=Release` (adapt for your build tool)
-- `cmake --build build`
+- Vulkan based forward rendering system with optional depth pre-pass and multisampling.
+- Scene tree with classic, object-oriented node system (inspired by [Godot](https://docs.godotengine.org), including the signal system).
+- Physic system based on [Jolt Physics](https://github.com/jrouwe/JoltPhysics).
+- PBR materials & shader.
+- Shader-based materials.
+- HDR tone mapping.
+- Frustum culling.
+- [In-game debug](004_debug_renderer.md)
+- [Blender add-on](003_blender_add_on.md)
+- JPEG/PNG and HDRi skybox.
+- Directional lights, omni (point) lights and spotlights.
+- Image based lighting for HDRi skybox.
+- Cascaded shadow maps for directional lights.
+- Cubemap shadow maps for omni lights.
+- [JSON scene](002_file_formats.md) files.
+- [glTF](002_file_formats.md) support.
+- [ZScene](002_file_formats.md) file format for better loading time and decreased VRAM usage.
+- UI framework 
 
 Examples
 ---------------------------------------------------------------------------
 - [Template project](https://github.com/HenriMichelon/zero_zero_template)
 - [Examples repository](https://github.com/HenriMichelon/zero_zero_examples)
+
+Screenshots
+---------------------------------------------------------------------------
+Classic Sponza with one OmniLight:
+![screenshot_sponza.png](images/screenshot_sponza.png)
+
+[VR Room](https://sketchfab.com/3d-models/unreal-vr-room-01-f7c42add167045a2bcb88d921ea9fd61) with one DirectionalLight:
+![screenshot_vr_room.png](images/screenshot_vr_room.png)
+
+[Cerberus](https://sketchfab.com/3d-models/cerberusffvii-gun-model-by-andrew-maximov-d08c461f8217491892ad5dd29b436c90) with IBL :
+![screenshot_cerberus.png](images/screenshot_cerberus.png)
+
+[Collision objects debug](004_debug_renderer.md) :
+![screenshot_debug.png](images/screenshot_debug.png)
+
 
 Contact
 ---------------------------------------------------------------------------

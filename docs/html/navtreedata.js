@@ -2,9 +2,11 @@ var NAVTREE =
 [
   [ "ZeroZero", "index.html", [
     [ "User documentation", "index.html", null ],
+    [ "Building & using ZeroZero", "md_000_build.html", null ],
     [ "Coordinate system", "md_001_coordinate_system.html", null ],
     [ "Supported file formats", "md_002_file_formats.html", null ],
     [ "Blender Add-on", "md_003_blender_add_on.html", null ],
+    [ "In-game Debug", "md_004_debug_renderer.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", [
         [ "z0", "namespacez0.html", null ]
@@ -54,6 +56,8 @@ var NAVTREE =
             [ "appName", "structz0_1_1ApplicationConfig.html#a398de70e448c4ad11db2a255c927b587", null ],
             [ "cascadedShadowMapSize", "structz0_1_1ApplicationConfig.html#a13cc3ceb37e65d9e64c5c6fc7a33ef75", null ],
             [ "clearColor", "structz0_1_1ApplicationConfig.html#a60cc5e64d1f06dd1fae4da5ca38d85a4", null ],
+            [ "debug", "structz0_1_1ApplicationConfig.html#a398527b3e9e358c345c5047b16871957", null ],
+            [ "debugConfig", "structz0_1_1ApplicationConfig.html#a8e6aef9da5c71205f7da538b5b3c11a8", null ],
             [ "defaultFontName", "structz0_1_1ApplicationConfig.html#a700d35d0393b2394ec9062bb800f5464", null ],
             [ "defaultFontSize", "structz0_1_1ApplicationConfig.html#a23b61c0297583a91da32d566801fc18f", null ],
             [ "depthFormat", "structz0_1_1ApplicationConfig.html#a38ec5156c32b8d8abe509f46139b44cc", null ],
@@ -140,6 +144,26 @@ var NAVTREE =
           [ "Cubemap", "classz0_1_1Cubemap.html", [
             [ "getHeight", "classz0_1_1Cubemap.html#a41bfc989babe0999be4037c5b68119b5", null ],
             [ "getWidth", "classz0_1_1Cubemap.html#aca1b996bfd42e4d13365709e3fcab072", null ]
+          ] ],
+          [ "DebugConfig", "structz0_1_1DebugConfig.html", [
+            [ "drawBoundingBox", "structz0_1_1DebugConfig.html#a16aa08a5990279e7265e4e2f24650983", null ],
+            [ "drawCenterOfMassTransform", "structz0_1_1DebugConfig.html#af99beb927c7d94df46dc2be42b5f60a9", null ],
+            [ "drawCoordinateSystem", "structz0_1_1DebugConfig.html#a746ec791e3d9c13bb511d06f2f4a3fe7", null ],
+            [ "drawCoordinateSystemPosition", "structz0_1_1DebugConfig.html#ae0011869cb88ecbac2e0c322acde7e58", null ],
+            [ "drawCoordinateSystemScale", "structz0_1_1DebugConfig.html#a6789123d9fd1abfdfbcdee2cadd28bfc", null ],
+            [ "drawGetSupportingFace", "structz0_1_1DebugConfig.html#aa2dda5df6cfdfa169e38a18ab952446d", null ],
+            [ "drawMassAndInertia", "structz0_1_1DebugConfig.html#a8a7044af3bce391f2eb54ec10f1e7ade", null ],
+            [ "drawRayCast", "structz0_1_1DebugConfig.html#a4424d285826566ef511ff54ff0eeeafa", null ],
+            [ "drawRayCastCollidingColor", "structz0_1_1DebugConfig.html#a6dbd81323e2de439fae67dd81af12148", null ],
+            [ "drawRayCastColor", "structz0_1_1DebugConfig.html#abadf4514218945e2a5c33e33dd1d06f4", null ],
+            [ "drawShape", "structz0_1_1DebugConfig.html#a1326bd6bc8f9dadb81db89f2e873244f", null ],
+            [ "drawShapeColor", "structz0_1_1DebugConfig.html#a6f6d9781b12f650df54894c086232ac9", null ],
+            [ "drawShapeWireframe", "structz0_1_1DebugConfig.html#a955b26220bfe6520f731cbedc9ed6607", null ],
+            [ "drawSleepStats", "structz0_1_1DebugConfig.html#a824dbf71d8799bb67e1307d06dd2d8f1", null ],
+            [ "drawVelocity", "structz0_1_1DebugConfig.html#a098bfed123df1bd58f2e01693f14d904", null ],
+            [ "drawWithDepthTest", "structz0_1_1DebugConfig.html#a0e082a1c7e22d91ceaa7e785a0f03299", null ],
+            [ "drawWorldTransform", "structz0_1_1DebugConfig.html#aa96f3806e5e3d2834358de079359e7b7", null ],
+            [ "updateDelay", "structz0_1_1DebugConfig.html#a572cfbe0f03604182a183febbfb8a0d6", null ]
           ] ],
           [ "DirectionalLight", "classz0_1_1DirectionalLight.html", [
             [ "DirectionalLight", "classz0_1_1DirectionalLight.html#ae5b18c734254613eb69d40b889c3589c", null ],
@@ -439,6 +463,7 @@ var NAVTREE =
             [ "addChild", "classz0_1_1Node.html#aa7620334cc22b6a362daf89db0a30019", null ],
             [ "createPropertyTween", "classz0_1_1Node.html#a6698184a18112ea28fb46a9f8ec45ad0", null ],
             [ "duplicate", "classz0_1_1Node.html#a150c752722772ada683d9d98e8cd7d4f", null ],
+            [ "findAllChildren", "classz0_1_1Node.html#a7c07814e5bd4d24cf9fab3b5cbc77b76", null ],
             [ "findFirstChild", "classz0_1_1Node.html#ad5c94eb4e7cd9430d8425449bd537f12", null ],
             [ "findFirstChild", "classz0_1_1Node.html#ac5de2a75caf4d2e9f00c4882afce698c", null ],
             [ "getBackVector", "classz0_1_1Node.html#a057aecbe4176307c45ead32fbc9feda5", null ],
@@ -529,6 +554,7 @@ var NAVTREE =
             [ "forceRaycastUpdate", "classz0_1_1RayCast.html#a2347aa61a67ea7fecdd148cbbec1fce5", null ],
             [ "getCollider", "classz0_1_1RayCast.html#ab5b76e9bca8bd9aa5e551ffa9a1a32a5", null ],
             [ "getCollisionPoint", "classz0_1_1RayCast.html#a2081661bfd54be41815f0be7df9dff35", null ],
+            [ "getTarget", "classz0_1_1RayCast.html#a16d85924550f0bd451799ecec7879a24", null ],
             [ "isColliding", "classz0_1_1RayCast.html#af6948778027ccfe6ba910c7c35dc3be6", null ],
             [ "setExcludeParent", "classz0_1_1RayCast.html#a40bd64727cd490f1fe3777c9458aaa09", null ],
             [ "setTarget", "classz0_1_1RayCast.html#a817ea7aa8d50da37420ff85ac084783a", null ]
@@ -551,7 +577,7 @@ var NAVTREE =
           [ "RigidBody", "classz0_1_1RigidBody.html", [
             [ "RigidBody", "classz0_1_1RigidBody.html#ace13f6dff9453b6f499b6a19eee6b4c7", null ],
             [ "RigidBody", "classz0_1_1RigidBody.html#abe46ebcf415b84b7fb2e88c95016fed4", null ],
-            [ "setBounce", "classz0_1_1RigidBody.html#a4ba512eddf9fd80a27932ed22b085b87", null ],
+            [ "setBounce", "classz0_1_1RigidBody.html#a83ef14354652d9e36ed1b73601dd7f7f", null ],
             [ "setProperty", "classz0_1_1RigidBody.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ]
           ] ],
           [ "ShaderMaterial", "classz0_1_1ShaderMaterial.html", [
@@ -657,6 +683,7 @@ var NAVTREE =
         [ "AABB", "structz0_1_1AABB.html", null ],
         [ "ApplicationConfig", "structz0_1_1ApplicationConfig.html", null ],
         [ "Color", "structz0_1_1Color.html", null ],
+        [ "DebugConfig", "structz0_1_1DebugConfig.html", null ],
         [ "Frustum", "structz0_1_1Frustum.html", null ],
         [ "Plane", "structz0_1_1Frustum_1_1Plane.html", null ],
         [ "GlTF", "classz0_1_1GlTF.html", null ],
@@ -770,7 +797,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classz0_1_1InputEventMouse.html#a1da8aa3a43aa06db29c286dc0a87987a",
-"structz0_1_1ApplicationConfig.html#a60cc5e64d1f06dd1fae4da5ca38d85a4"
+"structz0_1_1ApplicationConfig.html#a38ec5156c32b8d8abe509f46139b44cc"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
