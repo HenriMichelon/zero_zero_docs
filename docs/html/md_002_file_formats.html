@@ -65,20 +65,26 @@ $(document).ready(function(){initNavTree('md_002_file_formats.html',''); initRes
   <div class="clear-floats"></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h2>Scenes </h2>
-<h3>JSON</h3>
-<p><b>ZeroZero</b> have its own JSON format for describing a scene with resources (glTF ou ZScene files), meshes references linked to resources and the scene's nodes and their properties.<br/>
- The simplest way of creating JSON scene files is to use the ZeroZero's Blender Add-on (<code>src/tools/blender/blender_zero_zero.py</code>).<br/>
- A JSON scene can be loaded with <a class="el" href="classz0_1_1Loader.html#aa1cf2f6f20b4c73c28cb91739a279df3">z0::Loader::addScene</a>.</p>
+<div class="textblock"><h2>Resources </h2>
+<p>Scenes resources such as meshes and their vertices, materials, textures, images, ... can be loaded by ZeroZero from glTF or ZRes files. They are generally loaded automatically by the scene loader when a resource JSON file is included in a JSON scene file.</p>
 <h3>glTF</h3>
-<p>The <a class="el" href="classz0_1_1GlTF.html">z0::GlTF</a> class can load glTF 2.0 files containing nodes, meshes, materials and textures with <a class="el" href="classz0_1_1Loader.html#ab670571e7c7d734f4c452a291077afc1">z0::Loader::load</a>.<br/>
- The glTF support is mainly provided as a development tool since Blender can directly export a scene in JSON+glTF scene file format via the ZeroZero's Blender Add-on. During the creation phase scene hot-reload can easily be implemented with <a class="el" href="classz0_1_1Node.html#a760b298572124d03528a05c75a40af57">z0::Node::removeAllChildren</a> and <a class="el" href="classz0_1_1Loader.html#aa1cf2f6f20b4c73c28cb91739a279df3">z0::Loader::addScene</a> or <a class="el" href="classz0_1_1Loader.html#ab670571e7c7d734f4c452a291077afc1">z0::Loader::load</a>.<br/>
+<p>The glTF 2.0 support is mainly provided as a development tool since Blender can directly export them with the <a class="el" href="md_003_blender_add_on.html">Blender Add-on</a>.<br/>
  <b>Note</b> that the glTF loader is not optimized : all resources are loaded in CPU memory before processing, images are decompressed from JPEG/PNG formats in CPU memory then uploaded into VRAM uncompressed.</p>
-<h3>ZScene</h3>
-<p>The <a class="el" href="classz0_1_1ZScene.html">z0::ZScene</a> class can load files in the ZeroZero's ZScene file format with <a class="el" href="classz0_1_1Loader.html#ab670571e7c7d734f4c452a291077afc1">z0::Loader::load</a>.<br/>
- It's a binary file format created to allow textures to be loaded directly into VRAM in BCn compressed formats, decreasing both the loading times and the VRAM usage.<br/>
- The <code>gltf2zscene</code> tools can be used to convert glTF files to ZScene files.<br/>
- Since this files can be used as resources files in the JSON scenes files, glTF and Zscene files can be interchanged without modifying code or JSON scene files (except from the file name extension), allowing the use of glTF files during the creation phase and the ZScene files in the releases.</p>
+<h3>ZRes</h3>
+<p>The binary ZRes file format is designed to allow textures images to be loaded directly into VRAM in one big image atlas and in BCn compressed formats, decreasing both the loading times and the VRAM usage.<br/>
+ The <code>gltf2zres</code> tools can be used to convert glTF files to ZRes files, including from the <a class="el" href="md_003_blender_add_on.html">Blender Add-on</a>.</p>
+<h3>JSON</h3>
+<p>The JSON format is used to describe the content of a glTF or a ZRes file when used in a scene. It's an intermediary description format to allow the loading of a JSON scene file without scanning the content of a resource file to search for meshes.<br/>
+ They are created manually or with the <a class="el" href="md_003_blender_add_on.html">Blender Add-on</a> when exporting a Blender scene to as a resource file.</p>
+<h2>Scenes </h2>
+<h3>JSON</h3>
+<p>ZeroZero have its own JSON format for describing a scene with or linked with resources (glTF ou ZRes files), the scene tree and the nodes and their properties.<br/>
+ The simplest way of creating JSON scene files is to use the <a class="el" href="md_003_blender_add_on.html">Blender Add-on</a>.<br/>
+ A JSON scene is added to an existing node with <a class="el" href="classz0_1_1Loader.html#aa1cf2f6f20b4c73c28cb91739a279df3">z0::Loader::addScene</a>. Scene hot-reload can easily be implemented by combining <a class="el" href="classz0_1_1Node.html#a760b298572124d03528a05c75a40af57">z0::Node::removeAllChildren</a> and <a class="el" href="classz0_1_1Loader.html#aa1cf2f6f20b4c73c28cb91739a279df3">z0::Loader::addScene</a>.</p>
+<h3>glTF</h3>
+<p>Since the glTF format also contains a scene tree and nodes descriptions it can also be used to load an entire scene with <a class="el" href="classz0_1_1Loader.html#ab670571e7c7d734f4c452a291077afc1">z0::Loader::load</a>.</p>
+<h3>ZRes</h3>
+<p>Like the glTF format the ZRes format also contains a scene tree and nodes descriptions and can also be used to load an entire scene with <a class="el" href="classz0_1_1Loader.html#ab670571e7c7d734f4c452a291077afc1">z0::Loader::load</a>.</p>
 <h2>Images </h2>
 <p><b>ZeroZero</b> supports the following file formats when using the <a class="el" href="classz0_1_1Image.html#a0613d46bc8a3e0b10ee9113fc9423b35">z0::Image::load</a> function :</p><ul>
 <li>JPEG and PNG (others formats can be activated in <code>src/z0/libraries.cpp</code>)</li>
@@ -90,7 +96,7 @@ $(document).ready(function(){initNavTree('md_002_file_formats.html',''); initRes
 <!-- Generated by DoxyPress 1.7.0 -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on ven. nov. 15 2024 15:53:50 for ZeroZero &nbsp; by
+    <li class="footer">Generated on mar. nov. 19 2024 10:56:28 for ZeroZero &nbsp; by
     <a href="https://www.copperspice.com/documentation-doxypress.html">
     <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.7.0 </li>
   </ul>
