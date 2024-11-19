@@ -65,7 +65,7 @@ $(document).ready(function(){initNavTree('md_003_blender_add_on.html',''); initR
   <div class="clear-floats"></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Since <b>ZeroZero</b> does not have an editor a Blender add-on is provided to edit ZeroZero properties of scenes nodes and export a Blender scene to a ZeroZero JSON+GLB or JSON+ZSCENE scene.<br/>
+<div class="textblock"><p>Since <b>ZeroZero</b> does not have an editor a Blender add-on is provided to edit ZeroZero properties of scenes nodes and export a Blender scene to a ZeroZero scene or resource file.<br/>
 </p>
 <h2>Installation </h2>
 <p>The add-on support Blender 4.2 and newer version.<br/>
@@ -79,20 +79,31 @@ $(document).ready(function(){initNavTree('md_003_blender_add_on.html',''); initR
 <h2>How to use </h2>
 <p>Once installed the add-on add properties to the Blender's scene and the Blender's nodes.</p>
 <h3>Scene properties</h3>
-<p>The ZeroZero scene properties are located in the <em>ZeroZero project</em> section of the Blender scene properties : <img src="blender_add_on_scene.png" alt="" class="inline" title="ZeroZero Scene properties"/>     <br/>
+<p>The ZeroZero scene properties are located in the <em>ZeroZero project</em> section of the Blender scene properties :</p>
+<p><img src="blender_add_on_scene.png" alt="" class="inline" title="ZeroZero Scene properties"/>     <br/>
 </p>
-<p>The following properties can be edited :</p><ul>
+<p>The following common properties can be edited :</p><ul>
 <li><em>Project</em> : the game/project root directory</li>
 <li><em>Scene</em> : the scene resource directory, relative to the project directory</li>
-<li><em>Models</em> : the models resource directory, relative to the project directory</li>
-<li><em>Export to ZScene</em> : convert the exported GLB file to a ZScene file then delete the GLB</li>
-<li><em>gltf2zscene</em> : the directory of the gltf2zscene executable</li>
-<li><em>Format</em> : compression format for color textures</li>
-<li><em>Threads</em> : number of threads for image conversion with gltf2zscene (0 = auto) <br/>
+<li><em>Models</em> : the models resource directory, relative to the project directory <br/>
 </li>
 </ul>
-<p>The <em>Export as ZeroZero scene</em> button exports the Blender scene in JSON+GLB format.<br/>
- If the <em>Export to ZScene</em> option is activated, the GLB file is converted into a ZScene file then deleted. Refers to <a class="el" href="md_002_file_formats.html">File formats</a> for the description of the file formats.</p>
+<p>Use the <em>Export as</em> property to select if you want to export the Blender scene as a ZeroZero scene (JSON format) or as a resource file (glTF ou ZRes with optional JSON).</p>
+<p>The <em>Export to ZeroZero</em> button run the export process.</p>
+<p><b>Exporting as a Scene</b></p>
+<p>When exporting the scene tree as a JSON scene file you can choose if you want to <em>export</em> the resources as glTF or ZRes files with the <em>Resouces</em> option or if you want <em>link</em> an existing resource file (allowing you to create multiple scenes with only one set of resources).<br/>
+</p>
+<p>The <em>Reconcile and duplicate meshes</em> option try to detect duplicated meshes in the Blender scene when they have been created from another scene exported as resource : import the objets or meshes in the scene with Blender's <em>Append</em> function then duplicate objets with SHIFT-D or ALT-D to create the scene. It simply removes the version number in the names of the meshes objects created by Blender and mark the resulting <a class="el" href="classz0_1_1MeshInstance.html">z0::MeshInstance</a> node to be duplicated when the scene is loaded.</p>
+<p>See below for other resource exporting options.</p>
+<p><b>Export as a Resource file</b></p>
+<p>The properties changes when you export the Blender scene as a resource file :</p>
+<p><img src="blender_add_on_resources.png" alt="" class="inline" title="blender_add_on_resources.png"/>    </p><ul>
+<li><em>Export resources description</em> : create a JSON file describing the content (meshes only) of the scene. Mandatory if you want to use this resource file in a JSON scene file (see above for resource file linking).</li>
+<li><em>Convert to ZRes</em> : convert the exported GLB file to a ZRes file then delete the GLB</li>
+<li><em>gltf2zres</em> : the directory of the gltf2zres executable</li>
+<li><em>Format</em> : compression format for color textures</li>
+<li><em>Threads</em> : number of threads for image conversion with gltf2zres (0 = auto)</li>
+</ul>
 <h3>Nodes properties</h3>
 <h4>All nodes</h4>
 <p>The ZeroZero node properties are located in the <em>ZeroZero Node</em> section of the Blender node properties : <img src="blender_add_on_node.png" alt="" class="inline" title="ZeroZero Node properties"/>     <br/>
@@ -119,14 +130,19 @@ $(document).ready(function(){initNavTree('md_003_blender_add_on.html',''); initR
 </ul>
 <h4>Empty nodes</h4>
 <p>You can add <em>Empty</em>, <em>Plain axes</em> nodes in blender to add any ZeroZero node in the final scene.<br/>
- Example for a <a class="el" href="classz0_1_1Environment.html">z0::Environment</a> node :<br/>
+</p>
+<p>The main uses of empty nodes are :</p><ul>
+<li>Create ZeroZero resources objets like <a class="el" href="classz0_1_1Environment.html">z0::Environment</a>, <a class="el" href="classz0_1_1Skybox.html">z0::Skybox</a></li>
+<li>Create static bodies detached from meshes nodes, for example to create a floor composed by multiple tiles.</li>
+</ul>
+<p>Example for a <a class="el" href="classz0_1_1Environment.html">z0::Environment</a> node :<br/>
  <img src="blender_add_on_empty.png" alt="" class="inline" title="Environement node"/>     </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- Generated by DoxyPress 1.7.0 -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on mar. nov. 19 2024 10:56:28 for ZeroZero &nbsp; by
+    <li class="footer">Generated on mar. nov. 19 2024 11:15:04 for ZeroZero &nbsp; by
     <a href="https://www.copperspice.com/documentation-doxypress.html">
     <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.7.0 </li>
   </ul>

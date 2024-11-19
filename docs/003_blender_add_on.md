@@ -3,7 +3,7 @@ Blender Add-on
 
 Since **ZeroZero** does not have an editor a Blender add-on is provided
 to edit ZeroZero properties of scenes nodes and export a Blender scene
-to a ZeroZero JSON+GLB or JSON+ZSCENE scene.<br>
+to a ZeroZero scene or resource file.<br>
 
 Installation
 ------------------------------------------------------------------------
@@ -23,23 +23,46 @@ and the Blender's nodes.
 ### Scene properties
 The ZeroZero scene properties are located in the *ZeroZero project* section
 of the Blender scene properties :
+
 ![ZeroZero Scene properties](images/blender_add_on_scene.png)
 <br>
 
-The following properties can be edited :
+The following common properties can be edited :
 - *Project* : the game/project root directory 
 - *Scene* : the scene resource directory, relative to the project directory
 - *Models* : the models resource directory, relative to the project directory
-- *Export to ZScene* : convert the exported GLB file to a ZScene file then delete the GLB
-- *gltf2zscene* : the directory of the gltf2zscene executable
-- *Format* : compression format for color textures 
-- *Threads* : number of threads for image conversion with gltf2zscene (0 = auto)
 <br>
 
-The *Export as ZeroZero scene* button exports the Blender scene in JSON+GLB format.<br> 
-If the *Export to ZScene* option is activated, 
-the GLB file is converted into a ZScene file then deleted. 
-Refers to [File formats](002_file_formats.md) for the description of the file formats. 
+Use the *Export as*  property to select if you want to export the Blender scene
+as a ZeroZero scene (JSON format) or as a resource file (glTF ou ZRes with optional JSON).
+
+The *Export to ZeroZero* button run the export process.
+
+**Exporting as a Scene**
+
+When exporting the scene tree as a JSON scene file you can choose if you want to *export*
+the resources as glTF or ZRes files with the *Resouces* option or if you want *link*
+an existing resource file (allowing you to create multiple scenes with only one set
+of resources).<br>
+
+The *Reconcile and duplicate meshes* option try to detect duplicated meshes in the Blender
+scene when they have been created from another scene exported as resource : import the objets or meshes
+in the scene with Blender's *Append* function then duplicate objets with SHIFT-D or ALT-D to 
+create the scene. It simply removes the version number in the names of the meshes objects created
+by Blender and mark the resulting \ref z0::MeshInstance node to be duplicated when the scene is loaded.
+
+See below for other resource exporting options.
+
+**Export as a Resource file**
+
+The properties changes when you export the Blender scene as a resource file :
+
+![blender_add_on_resources.png](images/blender_add_on_resources.png)
+- *Export resources description* : create a JSON file describing the content (meshes only) of the scene. Mandatory if you want to use this resource file in a JSON scene file (see above for resource file linking).
+- *Convert to ZRes* : convert the exported GLB file to a ZRes file then delete the GLB
+- *gltf2zres* : the directory of the gltf2zres executable
+- *Format* : compression format for color textures
+- *Threads* : number of threads for image conversion with gltf2zres (0 = auto)
 
 ### Nodes properties
 
@@ -79,5 +102,10 @@ The following blender properties are used during the export :
 #### Empty nodes
 You can add *Empty*, *Plain axes* nodes in blender to add any ZeroZero node in 
 the final scene.<br>
+
+The main uses of empty nodes are :
+- Create ZeroZero resources objets like \ref z0::Environment, \ref z0::Skybox
+- Create static bodies detached from meshes nodes, for example to create a floor composed by multiple tiles.
+
 Example for a \ref z0::Environment node :<br>
 ![Environement node](images/blender_add_on_empty.png)
