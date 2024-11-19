@@ -25,7 +25,7 @@ The JSON format is used to describe the content of a glTF or a ZRes file when us
 It's an intermediary description format to allow the loading of a JSON scene file without
 scanning the content of a resource file to search for meshes.<br>
 They are created manually or with the [Blender Add-on](003_blender_add_on.md) when
-exporting a Blender scene to as a resource file.
+exporting a Blender scene as a resource file.
 
 Scenes
 ---------------------------------------------------------------------------

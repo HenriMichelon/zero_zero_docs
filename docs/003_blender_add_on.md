@@ -81,7 +81,7 @@ This properties must be supported by the `setProperty` function of the
 corresponding class (including inheritance).
 <br>
 
-The following objects properties are exported in the GLB or ZScene file, you don't have to add them :
+The following objects properties are automatically exported, you don't have to manually add them :
 - *position*
 - *rotation*
 - *scale*
