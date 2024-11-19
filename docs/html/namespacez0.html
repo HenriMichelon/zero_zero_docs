@@ -101,11 +101,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Cubemap.html">Cubemap</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1CylinderShape.html">CylinderShape</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structz0_1_1DebugConfig.html">DebugConfig</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configuration of the in-game debug  <a href="structz0_1_1DebugConfig.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1DirectionalLight.html">DirectionalLight</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Environment.html">Environment</a></td></tr>
@@ -248,7 +243,7 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Window.html">Window</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1ZRes.html">ZRes</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1ZScene.html">ZScene</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -509,12 +504,6 @@ Enums</h2></td></tr>
 <a class="el" href="namespacez0.html#a22f6b18e781e3c412e7d243f7de6aa5caf55c1c722034e92213df328d31e33c62">R8G8B8A8_UNORM</a> = 1
  }</td></tr>
 <tr class="separator:a22f6b18e781e3c412e7d243f7de6aa5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d6bbfa8c3debe86ad603126bc778598"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez0.html#a2d6bbfa8c3debe86ad603126bc778598">DebugShapeColor</a> { <a class="el" href="namespacez0.html#a2d6bbfa8c3debe86ad603126bc778598a99ee1c53265abeecfe720f4bc3fc44a6">InstanceColor</a>, 
-<a class="el" href="namespacez0.html#a2d6bbfa8c3debe86ad603126bc778598ae474501d8e6be0d0983214885896073a">ShapeTypeColor</a>, 
-<a class="el" href="namespacez0.html#a2d6bbfa8c3debe86ad603126bc778598ac415a727aec99b44707c3555b360c85b">MotionTypeColor</a>
- }</td></tr>
-<tr class="memdesc:a2d6bbfa8c3debe86ad603126bc778598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coloring scheme of collision shapes.  <a href="namespacez0.html#a2d6bbfa8c3debe86ad603126bc778598">More...</a><br /></td></tr>
-<tr class="separator:a2d6bbfa8c3debe86ad603126bc778598"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -599,36 +588,6 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9602dcbc7b9991767e322a6f55541e8aa1dd26f1f1790f0b56d5752fb0fbecef0"></a>BACK&#160;</td><td class="fielddoc"><p>Default cull mode. The back of the object is culled when not visible. Back face triangles will be culled when facing the camera. This results in only the front side of triangles being drawn. For closed-surface meshes, this means that only the exterior of the mesh will be visible. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="a9602dcbc7b9991767e322a6f55541e8aabb2fe5c916efb43aab8cbb68f997d2ee"></a>FRONT&#160;</td><td class="fielddoc"><p>Front face triangles will be culled when facing the camera. This results in only the back side of triangles being drawn. For closed-surface meshes, this means that the interior of the mesh will be drawn instead of the exterior. </p>
-</td></tr>
-</table>
-
-</div>
-</div>
-<a class="anchor" id="a2d6bbfa8c3debe86ad603126bc778598"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum class <a class="el" href="namespacez0.html#a2d6bbfa8c3debe86ad603126bc778598">DebugShapeColor</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Coloring scheme of collision shapes. </p>
-<table class="fieldtable">
-<tr><th>Enum Values</th><th>Documentation</th></tr><tr><td class="fieldname"><a class="anchor" id="a2d6bbfa8c3debe86ad603126bc778598a99ee1c53265abeecfe720f4bc3fc44a6"></a>InstanceColor&#160;</td><td class="fielddoc"><p>Random color per instance. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a2d6bbfa8c3debe86ad603126bc778598ae474501d8e6be0d0983214885896073a"></a>ShapeTypeColor&#160;</td><td class="fielddoc"><p>Convex = green, scaled = yellow, compound = orange, mesh = red. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="a2d6bbfa8c3debe86ad603126bc778598ac415a727aec99b44707c3555b360c85b"></a>MotionTypeColor&#160;</td><td class="fielddoc"><p>Static = grey, keyframed = green, dynamic = random color per instance. </p>
 </td></tr>
 </table>
 
@@ -1950,7 +1909,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacez0.html">z0</a></li>
-    <li class="footer">Generated on mar. nov. 19 2024 10:43:55 for ZeroZero &nbsp; by
+    <li class="footer">Generated on ven. nov. 15 2024 15:53:50 for ZeroZero &nbsp; by
     <a href="https://www.copperspice.com/documentation-doxypress.html">
     <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.7.0 </li>
   </ul>
