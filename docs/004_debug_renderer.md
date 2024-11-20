@@ -8,7 +8,7 @@ if the \ref z0::ApplicationConfig.debug field of the application configuration i
 It uses the \ref z0::ApplicationConfig.debugConfig field as configuration.
 
 To avoid too much loss in performance during debugging phase the debug information
-to display are not updates each frame but only when \ref z0::DebugConfig.updateDelay has passed.
+to display are not updated each frame but only when \ref z0::DebugConfig.updateDelay has passed.
 
 The default configuration only displays the collision shapes of all collision objects.
 
