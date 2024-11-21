@@ -25,7 +25,7 @@ Some of the features actually implemented or under construction :
 - Cubemap shadow maps for omni lights.
 - [JSON scene](002_file_formats.md) files.
 - [glTF](002_file_formats.md) support.
-- [ZScene](002_file_formats.md) file format for better loading time and decreased VRAM usage.
+- [ZRes](002_file_formats.md) binary file format for better loading time and decreased VRAM usage.
 - UI framework 
 
 Examples
