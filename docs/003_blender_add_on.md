@@ -41,25 +41,28 @@ The *Export to ZeroZero* button run the export process.
 **Exporting as a Scene**
 
 When exporting the scene tree as a JSON scene file you can choose if you want to *export*
-the resources as glTF or ZRes files with the *Resouces* option or if you want *link*
-an existing resource file (allowing you to create multiple scenes with only one set
-of resources).<br>
+the resources as glTF or ZRes files with the *Resources* option or if you want *link*
+an existing resource file.
 
-The *Reconcile and duplicate meshes* option try to detect duplicated meshes in the Blender
-scene when they have been created from another scene exported as resource : import the objets or meshes
-in the scene with Blender's *Append* function then duplicate objets with SHIFT-D or ALT-D to 
-create the scene. It simply removes the version number in the names of the meshes objects created
-by Blender and mark the resulting \ref z0::MeshInstance node to be duplicated when the scene is loaded.
+Linking a resource file allow you to create multiple scenes with only one set
+of resources to reduce VRAM usage and avoid resources reloading.
 
-See below for other resource exporting options.
+To use another Blender file as a linked resource first export the file as a 
+resource file (see below) then in the import the objets in the final scene
+with Blender's *Append* function and duplicate the objets with SHIFT-D or ALT-D to create the scene.
+
+The *Reconcile and duplicate meshes* option try to associate the meshes in the Blender
+scene with the meshes in the resource file. It simply removes the version number in the names of the meshes objects created
+by Blender when duplicating and mark the resulting \ref z0::MeshInstance node to be duplicated when the scene is loaded.
+
 
 **Export as a Resource file**
 
-The properties changes when you export the Blender scene as a resource file :
+The properties change when you export the Blender scene as a resource file :
 
 ![blender_add_on_resources.png](images/blender_add_on_resources.png)
 - *Export resources description* : create a JSON file describing the content (meshes only) of the scene. Mandatory if you want to use this resource file in a JSON scene file (see above for resource file linking).
-- *Convert to ZRes* : convert the exported GLB file to a ZRes file then delete the GLB
+- *Convert to ZRes* : convert the exported glTF file to a ZRes file then delete the glTF
 - *gltf2zres* : the directory of the gltf2zres executable
 - *Format* : compression format for color textures
 - *Threads* : number of threads for image conversion with gltf2zres (0 = auto)
