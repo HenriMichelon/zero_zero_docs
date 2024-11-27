@@ -88,7 +88,7 @@ var NAVTREE =
             [ "isPaused", "classz0_1_1Application.html#a48ffb22c4b73bf70c93e036abeab81f2", null ],
             [ "quit", "classz0_1_1Application.html#a6e16ce541977125f3a99618a9f2af058", null ],
             [ "remove", "classz0_1_1Application.html#a0ede4eb3ed2c558211cd2da6138eea07", null ],
-            [ "setDisplayDebug", "classz0_1_1Application.html#a40acc949fe4f08cbd3e8d6dc69589e82", null ],
+            [ "setDisplayDebug", "classz0_1_1Application.html#a698dabf9f3c4a87b81b4ae255575576b", null ],
             [ "setPaused", "classz0_1_1Application.html#aafab2fafdec7ae38b9da6676ccf01e77", null ],
             [ "setRootNode", "classz0_1_1Application.html#a31fe371606b14a3f6b42788d31740c81", null ],
             [ "setShadowCasting", "classz0_1_1Application.html#ab917a286952de3ce1bcba10af30263ce", null ]
@@ -507,6 +507,7 @@ var NAVTREE =
             [ "Node", "classz0_1_1Node.html#aaa6c9ad08249b7235fb351868f296a34", null ],
             [ "Node", "classz0_1_1Node.html#adc3171bbdddc2056fa36a7d2b239be55", null ],
             [ "addChild", "classz0_1_1Node.html#aa7620334cc22b6a362daf89db0a30019", null ],
+            [ "addToGroup", "classz0_1_1Node.html#a35ecc446103002806b9c2580dc377d20", null ],
             [ "createPropertyTween", "classz0_1_1Node.html#a6698184a18112ea28fb46a9f8ec45ad0", null ],
             [ "duplicate", "classz0_1_1Node.html#a150c752722772ada683d9d98e8cd7d4f", null ],
             [ "findAllChildren", "classz0_1_1Node.html#a7c07814e5bd4d24cf9fab3b5cbc77b76", null ],
@@ -537,6 +538,7 @@ var NAVTREE =
             [ "getType", "classz0_1_1Node.html#a97c56d51eec84be3e856eb0ca6ebd3d4", null ],
             [ "getUpVector", "classz0_1_1Node.html#afc56f6b1c1fdc2f457a32f689d1db632", null ],
             [ "haveChild", "classz0_1_1Node.html#a34d5af83a7ccd140e6961474acb74a64", null ],
+            [ "isInGroup", "classz0_1_1Node.html#af90dfd6d57c6487255cf29761136f4b2", null ],
             [ "isProcessed", "classz0_1_1Node.html#a83943e04f0ee0a5a38208278b97fc780", null ],
             [ "killTween", "classz0_1_1Node.html#a8b21781b65398d0fed538d26e2784088", null ],
             [ "onEnterScene", "classz0_1_1Node.html#a185f888b7aabbe08c3c1c6a76669b75e", null ],
@@ -549,6 +551,7 @@ var NAVTREE =
             [ "removeAllChildren", "classz0_1_1Node.html#a760b298572124d03528a05c75a40af57", null ],
             [ "removeChild", "classz0_1_1Node.html#acf9ae64c6708e3723c500c5318058d44", null ],
             [ "removeChild", "classz0_1_1Node.html#a4b19b4c247bfddbc78ee6710e508dbe2", null ],
+            [ "removeFromGroup", "classz0_1_1Node.html#a75f34c275e30c29b6c38f68ed216c125", null ],
             [ "rotateX", "classz0_1_1Node.html#a42d657c51846d0c104e4f1614e3dc689", null ],
             [ "rotateY", "classz0_1_1Node.html#a27be02acacb53bf2a010488a051b25a9", null ],
             [ "rotateZ", "classz0_1_1Node.html#aa2a7537526f3ae676af7cca05157c7e3", null ],
@@ -851,7 +854,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classz0_1_1GWindow.html#ae07ffc83c6e2586b09157cacd623819b",
-"classz0_1_1Window.html#a5ae591df94fc66ccb85cbb6565368bca"
+"classz0_1_1VirtualFS.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';
