@@ -88,6 +88,8 @@ $(document).ready(function(){initNavTree('classz0_1_1ZRes.html',''); initResizab
 <li>Pre calculated mip levels : all images mips levels are pre-calculated and compressed.<br/>
 </li>
 <li>Pre calculated data : all transforms are pre-calculated.<br/>
+</li>
+<li>Pre calculated animations data : all animation data are made relative to the original object.<br/>
  <br/>
  A <a class="el" href="classz0_1_1ZRes.html">ZRes</a> file can be created from a <a class="el" href="classz0_1_1GlTF.html">glTF</a> file using the <code>gltf2zres</code> command line tool.<br/>
  <br/>
@@ -97,6 +99,7 @@ $(document).ready(function(){initNavTree('classz0_1_1ZRes.html',''); initResizab
 <div class="line">array&lt;MaterialHeader, materialsCount&gt; : materials headers</div>
 <div class="line">array&lt;MeshHeader + array&lt;SurfaceInfo, surfacesCount&gt; + array&lt;DataInfo, surfacesCount * uvsCount&gt;, meshesCount&gt; : meshes headers</div>
 <div class="line">array&lt;NodeHeader + array&lt;uint32_t, childrenCount&gt;, nodesCount&gt; : nodes headers</div>
+<div class="line">array&lt;AnimationHeader + array&lt;TrackInfo, tracksCount&gt;, animationCount&gt; : animation headers</div>
 <div class="line">uint32_t : indicesCount</div>
 <div class="line">array&lt;uint32_t, indicesCount&gt; : indices data bloc</div>
 <div class="line">uint32_t : positionsCount</div>
@@ -107,6 +110,7 @@ $(document).ready(function(){initNavTree('classz0_1_1ZRes.html',''); initResizab
 <div class="line">array&lt;vec2, uvsCount&gt; : uvs data bloc</div>
 <div class="line">uint32_t : tangentsCount</div>
 <div class="line">array&lt;vec4, tangentsCount&gt; : tangents data bloc</div>
+<div class="line">array&lt;float, keysCount&gt; + array&lt;vec3, keyCount&gt; <span class="keywordflow">for each</span> track, <span class="keywordflow">for each</span> animation : animations data</div>
 <div class="line">array&lt;BCn compressed image, imagesCount&gt; : images data bloc</div>
 </div><!-- end fragment -->
  </li>
@@ -176,7 +180,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacez0.html">z0</a></li><li class="navelem"><a class="el" href="classz0_1_1ZRes.html">ZRes</a></li>
-    <li class="footer">Generated on jeu. nov. 21 2024 10:47:06 for ZeroZero &nbsp; by
+    <li class="footer">Generated on mer. nov. 27 2024 11:12:50 for ZeroZero &nbsp; by
     <a href="https://www.copperspice.com/documentation-doxypress.html">
     <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.7.0 </li>
   </ul>

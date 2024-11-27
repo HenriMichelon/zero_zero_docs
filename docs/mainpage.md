@@ -27,6 +27,7 @@ Some of the features actually implemented or under construction :
 - [glTF](002_file_formats.md) support.
 - [ZRes](002_file_formats.md) binary file format for better loading time and decreased VRAM usage.
 - UI framework 
+- Animations
 
 Examples
 ---------------------------------------------------------------------------
