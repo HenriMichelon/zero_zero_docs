@@ -34,31 +34,31 @@ var NAVTREE =
               [ "setState", "classz0_1_1ui_1_1CheckWidget.html#a4b9cb3055c817e2e5da78ea9deac270b", null ]
             ] ],
             [ "Event", "structz0_1_1ui_1_1Event.html", null ],
+            [ "EventClick", "structz0_1_1ui_1_1EventClick.html", [
+              [ "consumed", "structz0_1_1ui_1_1EventClick.html#a5923b9221705546ddd88c92230707bd5", null ]
+            ] ],
+            [ "EventKeyb", "structz0_1_1ui_1_1EventKeyb.html", [
+              [ "consumed", "structz0_1_1ui_1_1EventKeyb.html#a5923b9221705546ddd88c92230707bd5", null ],
+              [ "key", "structz0_1_1ui_1_1EventKeyb.html#a96313403719d705d2df812e3ba166772", null ]
+            ] ],
+            [ "EventMouseButton", "structz0_1_1ui_1_1EventMouseButton.html", [
+              [ "button", "structz0_1_1ui_1_1EventMouseButton.html#a26b9a03c639a856e34c2d8bec26ce611", null ],
+              [ "consumed", "structz0_1_1ui_1_1EventMouseButton.html#a5923b9221705546ddd88c92230707bd5", null ],
+              [ "x", "structz0_1_1ui_1_1EventMouseButton.html#ad0da36b2558901e21e7a30f6c227a45e", null ],
+              [ "y", "structz0_1_1ui_1_1EventMouseButton.html#aa4f0d3eebc3c443f9be81bf48561a217", null ]
+            ] ],
+            [ "EventMouseMove", "structz0_1_1ui_1_1EventMouseMove.html", [
+              [ "buttonsState", "structz0_1_1ui_1_1EventMouseMove.html#a30a423a4bfa9647061e32feaa54682d3", null ],
+              [ "consumed", "structz0_1_1ui_1_1EventMouseMove.html#a5923b9221705546ddd88c92230707bd5", null ],
+              [ "x", "structz0_1_1ui_1_1EventMouseMove.html#ad0da36b2558901e21e7a30f6c227a45e", null ],
+              [ "y", "structz0_1_1ui_1_1EventMouseMove.html#aa4f0d3eebc3c443f9be81bf48561a217", null ]
+            ] ],
+            [ "EventRange", "structz0_1_1ui_1_1EventRange.html", null ],
+            [ "EventState", "structz0_1_1ui_1_1EventState.html", [
+              [ "state", "structz0_1_1ui_1_1EventState.html#af8ec6e123570f44094bcf2cb02b478f4", null ]
+            ] ],
+            [ "EventValue", "structz0_1_1ui_1_1EventValue.html", null ],
             [ "Frame", "classz0_1_1ui_1_1Frame.html", null ],
-            [ "GEventClick", "structz0_1_1ui_1_1GEventClick.html", [
-              [ "consumed", "structz0_1_1ui_1_1GEventClick.html#a5923b9221705546ddd88c92230707bd5", null ]
-            ] ],
-            [ "GEventKeyb", "structz0_1_1ui_1_1GEventKeyb.html", [
-              [ "consumed", "structz0_1_1ui_1_1GEventKeyb.html#a5923b9221705546ddd88c92230707bd5", null ],
-              [ "key", "structz0_1_1ui_1_1GEventKeyb.html#a96313403719d705d2df812e3ba166772", null ]
-            ] ],
-            [ "GEventMouseButton", "structz0_1_1ui_1_1GEventMouseButton.html", [
-              [ "button", "structz0_1_1ui_1_1GEventMouseButton.html#a26b9a03c639a856e34c2d8bec26ce611", null ],
-              [ "consumed", "structz0_1_1ui_1_1GEventMouseButton.html#a5923b9221705546ddd88c92230707bd5", null ],
-              [ "x", "structz0_1_1ui_1_1GEventMouseButton.html#ad0da36b2558901e21e7a30f6c227a45e", null ],
-              [ "y", "structz0_1_1ui_1_1GEventMouseButton.html#aa4f0d3eebc3c443f9be81bf48561a217", null ]
-            ] ],
-            [ "GEventMouseMove", "structz0_1_1ui_1_1GEventMouseMove.html", [
-              [ "buttonsState", "structz0_1_1ui_1_1GEventMouseMove.html#a30a423a4bfa9647061e32feaa54682d3", null ],
-              [ "consumed", "structz0_1_1ui_1_1GEventMouseMove.html#a5923b9221705546ddd88c92230707bd5", null ],
-              [ "x", "structz0_1_1ui_1_1GEventMouseMove.html#ad0da36b2558901e21e7a30f6c227a45e", null ],
-              [ "y", "structz0_1_1ui_1_1GEventMouseMove.html#aa4f0d3eebc3c443f9be81bf48561a217", null ]
-            ] ],
-            [ "GEventRange", "structz0_1_1ui_1_1GEventRange.html", null ],
-            [ "GEventState", "structz0_1_1ui_1_1GEventState.html", [
-              [ "state", "structz0_1_1ui_1_1GEventState.html#af8ec6e123570f44094bcf2cb02b478f4", null ]
-            ] ],
-            [ "GEventValue", "structz0_1_1ui_1_1GEventValue.html", null ],
             [ "Line", "classz0_1_1ui_1_1Line.html", null ],
             [ "Manager", "classz0_1_1ui_1_1Manager.html", [
               [ "add", "classz0_1_1ui_1_1Manager.html#acd18f873f6eca4a1ffb23a5236b00955", null ],
@@ -350,8 +350,8 @@ var NAVTREE =
             [ "getVelocity", "classz0_1_1CollisionObject.html#af845917f483db6b9c329f5bd02e75ebd", null ],
             [ "haveCollisionLayer", "classz0_1_1CollisionObject.html#a450e62d60665946e8165dc31337ebb1c", null ],
             [ "haveCollisionMask", "classz0_1_1CollisionObject.html#a0ab57777b47ab1e220d784ad51de6fcf", null ],
-            [ "setCollistionLayer", "classz0_1_1CollisionObject.html#acbdb047967acd566814324547973522d", null ],
-            [ "setCollistionMask", "classz0_1_1CollisionObject.html#aa6b1c298353be91cb3490b0d4d432cf7", null ],
+            [ "setCollisionLayer", "classz0_1_1CollisionObject.html#a758b2310661d9c5cec72594231e51169", null ],
+            [ "setCollisionMask", "classz0_1_1CollisionObject.html#a71fd6b37f981398ed19509e5c1e47202", null ],
             [ "setProperty", "classz0_1_1CollisionObject.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ],
             [ "setVelocity", "classz0_1_1CollisionObject.html#acce729a74fdb67b267866663d20c5023", null ],
             [ "setVisible", "classz0_1_1CollisionObject.html#a865b6f3495585c790494181f9ab4c9ee", null ],
@@ -840,13 +840,13 @@ var NAVTREE =
           [ "Playback", "structz0_1_1AnimationPlayer_1_1Playback.html", null ],
           [ "Collision", "structz0_1_1CollisionObject_1_1Collision.html", null ],
           [ "Event", "structz0_1_1ui_1_1Event.html", [
-            [ "GEventClick", "structz0_1_1ui_1_1GEventClick.html", null ],
-            [ "GEventKeyb", "structz0_1_1ui_1_1GEventKeyb.html", null ],
-            [ "GEventMouseButton", "structz0_1_1ui_1_1GEventMouseButton.html", null ],
-            [ "GEventMouseMove", "structz0_1_1ui_1_1GEventMouseMove.html", null ],
-            [ "GEventRange", "structz0_1_1ui_1_1GEventRange.html", null ],
-            [ "GEventState", "structz0_1_1ui_1_1GEventState.html", null ],
-            [ "GEventValue", "structz0_1_1ui_1_1GEventValue.html", null ]
+            [ "EventClick", "structz0_1_1ui_1_1EventClick.html", null ],
+            [ "EventKeyb", "structz0_1_1ui_1_1EventKeyb.html", null ],
+            [ "EventMouseButton", "structz0_1_1ui_1_1EventMouseButton.html", null ],
+            [ "EventMouseMove", "structz0_1_1ui_1_1EventMouseMove.html", null ],
+            [ "EventRange", "structz0_1_1ui_1_1EventRange.html", null ],
+            [ "EventState", "structz0_1_1ui_1_1EventState.html", null ],
+            [ "EventValue", "structz0_1_1ui_1_1EventValue.html", null ]
           ] ]
         ] ],
         [ "TextureInfo", "structz0_1_1StandardMaterial_1_1TextureInfo.html", null ],

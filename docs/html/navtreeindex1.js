@@ -149,7 +149,7 @@ var NAVTREEINDEX1 =
 "classz0_1_1ui_1_1CheckWidget.html#a5d74787dedbc4e11c1ab15bf487e61f8ab353341a2929c227b048466861695b38":[6,0,0,0,2,0,1],
 "classz0_1_1ui_1_1CheckWidget.html#a5d74787dedbc4e11c1ab15bf487e61f8aed65b7dfe470f4e500b15f7074bb7fa2":[6,0,0,0,2,0,0],
 "classz0_1_1ui_1_1CheckWidget.html#a8e52bcaecc271b1b57c4608da2d4b11e":[6,0,0,0,2,1],
-"classz0_1_1ui_1_1Frame.html":[6,0,0,0,4],
+"classz0_1_1ui_1_1Frame.html":[6,0,0,0,11],
 "classz0_1_1ui_1_1Line.html":[6,0,0,0,12],
 "classz0_1_1ui_1_1Manager.html":[6,0,0,0,13],
 "classz0_1_1ui_1_1Manager.html#a5f2e190b8261a98c97c2ea4e86670d54":[6,0,0,0,13,2],
