@@ -82,94 +82,8 @@ $(document).ready(function(){initNavTree('classz0_1_1Loader.html',''); initResiz
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab670571e7c7d734f4c452a291077afc1"><td class="memItemLeft" align="right" valign="top">static shared_ptr&lt; <a class="el" href="classz0_1_1Node.html">Node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Loader.html#ab670571e7c7d734f4c452a291077afc1">load</a> (const string &amp;filepath)</td></tr>
 <tr class="separator:ab670571e7c7d734f4c452a291077afc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1cf2f6f20b4c73c28cb91739a279df3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Loader.html#aa1cf2f6f20b4c73c28cb91739a279df3">addScene</a> (<a class="el" href="classz0_1_1Node.html">Node</a> *parent, const string &amp;filepath)</td></tr>
-<tr class="separator:aa1cf2f6f20b4c73c28cb91739a279df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95cf00cad336503b98a9e95321734cc4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Loader.html#a95cf00cad336503b98a9e95321734cc4">addScene</a> (const shared_ptr&lt; <a class="el" href="classz0_1_1Node.html">Node</a> &gt; &amp;parent, const string &amp;filepath)</td></tr>
-<tr class="separator:a95cf00cad336503b98a9e95321734cc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a95cf00cad336503b98a9e95321734cc4"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void addScene </td>
-          <td>(</td>
-          <td class="paramtype">const shared_ptr&lt; <a class="el" href="classz0_1_1Node.html">Node</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>parent</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const string &amp;&#160;</td>
-          <td class="paramname"><em>filepath</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Creates new instances of nodes described in a JSON file and add them to the parent's tree </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">parent</td><td><a class="el" href="classz0_1_1Node.html">Node</a> to add the new nodes to </td></tr>
-    <tr><td class="paramname">filepath</td><td>path of the <a class="el" href="classz0_1_1GlTF.html">glTF</a> file, relative to the application path </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="aa1cf2f6f20b4c73c28cb91739a279df3"></a>
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void addScene </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classz0_1_1Node.html">Node</a> *&#160;</td>
-          <td class="paramname"><em>parent</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const string &amp;&#160;</td>
-          <td class="paramname"><em>filepath</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Creates new instances of nodes described in a JSON file and add them to the parent's tree </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">parent</td><td><a class="el" href="classz0_1_1Node.html">Node</a> to add the new nodes to </td></tr>
-    <tr><td class="paramname">filepath</td><td>path of the <a class="el" href="classz0_1_1GlTF.html">glTF</a> file, relative to the application path </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
 <a class="anchor" id="ab670571e7c7d734f4c452a291077afc1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -191,9 +105,9 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Load a <a class="el" href="classz0_1_1GlTF.html">glTF</a> or ZScene scene </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Load a JSON, <a class="el" href="classz0_1_1GlTF.html">glTF</a> or ZScene file </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">filepath</td><td>path of the glTF/ZScene file, relative to the application path </td></tr>
+    <tr><td class="paramname">filepath</td><td>path of the JSON/glTF/ZScene file, relative to the application path </td></tr>
   </table>
   </dd>
 </dl>
@@ -206,7 +120,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacez0.html">z0</a></li><li class="navelem"><a class="el" href="classz0_1_1Loader.html">Loader</a></li>
-    <li class="footer">Generated on mer. nov. 27 2024 14:31:56 for ZeroZero &nbsp; by
+    <li class="footer">Generated on jeu. déc. 5 2024 11:22:20 for ZeroZero &nbsp; by
     <a href="https://www.copperspice.com/documentation-doxypress.html">
     <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.7.0 </li>
   </ul>
