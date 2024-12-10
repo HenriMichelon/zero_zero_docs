@@ -1,7 +1,7 @@
 User documentation
 ===========================================================================
 
-ZeroZero is an experimental 3D engine based on [Vulkan 1.3](https://www.vulkan.org/) and [Jolt 5.x](https://github.com/jrouwe/JoltPhysics) made in Modern C++ for learning purpose.
+ZeroZero is a 3D engine based on [Vulkan 1.3](https://www.vulkan.org/) and [Jolt 5.x](https://github.com/jrouwe/JoltPhysics) made in Modern C++ for learning purpose.
 
 Released under the [MIT license](https://raw.githubusercontent.com/HenriMichelon/zero_zero/main/LICENSE.txt).
 
@@ -63,4 +63,5 @@ Vulkan extensions and third parties dependencies used
 - [stb](https://github.com/nothings/stb) for image loading and glyph rendering
 - [fastgltf](https://github.com/spnda/fastgltf) for glTF scene loading
 - [Jolt Physics](https://github.com/jrouwe/JoltPhysics) for the physics system
+- [meshoptimizer](https://github.com/zeux/meshoptimizer) for meshes optimization
 
