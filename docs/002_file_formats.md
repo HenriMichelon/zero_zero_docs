@@ -34,8 +34,8 @@ Scenes
 ZeroZero have its own JSON format for describing a scene with or linked with resources (glTF ou ZRes files), 
 the scene tree and the nodes and their properties.<br>
 The simplest way of creating JSON scene files is to use the [Blender Add-on](003_blender_add_on.md).<br>
-A JSON scene is added to an existing node with \ref z0::Loader::addScene. 
-Scene hot-reload can easily be implemented by combining \ref z0::Node::removeAllChildren and \ref z0::Loader::addScene.
+A JSON scene is added to an existing node with \ref z0::Loader::load. 
+Scene hot-reload can easily be implemented by combining \ref z0::Node::removeAllChildren and \ref z0::Loader::load.
 
 ### glTF
 Since the glTF format also contains a scene tree and nodes descriptions it can also be used
