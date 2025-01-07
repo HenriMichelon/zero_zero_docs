@@ -80,11 +80,12 @@ $(document).ready(function(){initNavTree('classz0_1_1Loader.html',''); initResiz
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab670571e7c7d734f4c452a291077afc1"><td class="memItemLeft" align="right" valign="top">static shared_ptr&lt; <a class="el" href="classz0_1_1Node.html">Node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Loader.html#ab670571e7c7d734f4c452a291077afc1">load</a> (const string &amp;filepath)</td></tr>
-<tr class="separator:ab670571e7c7d734f4c452a291077afc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adba6d7af4445f9b5535e6fb8e69841fc"><td class="memTemplParams" colspan="2">template&lt;typename T  = Node&gt; </td></tr>
+<tr class="memitem:adba6d7af4445f9b5535e6fb8e69841fc"><td class="memTemplItemLeft" align="right" valign="top">static shared_ptr&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classz0_1_1Loader.html#adba6d7af4445f9b5535e6fb8e69841fc">load</a> (const string &amp;filepath, bool usecache=false)</td></tr>
+<tr class="separator:adba6d7af4445f9b5535e6fb8e69841fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="ab670571e7c7d734f4c452a291077afc1"></a>
+<a class="anchor" id="adba6d7af4445f9b5535e6fb8e69841fc"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -92,22 +93,33 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static shared_ptr&lt;<a class="el" href="classz0_1_1Node.html">Node</a>&gt; load </td>
+          <td class="memname">static shared_ptr&lt;T&gt; load </td>
           <td>(</td>
           <td class="paramtype">const string &amp;&#160;</td>
-          <td class="paramname"><em>filepath</em></td><td>)</td>
+          <td class="paramname"><em>filepath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>usecache</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Load a JSON, <a class="el" href="classz0_1_1GlTF.html">glTF</a> or ZScene file </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Load a JSON, glTF or ZRes file </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">filepath</td><td>path of the JSON/glTF/ZScene file, relative to the application path </td></tr>
+    <tr><td class="paramname">filepath</td><td>path of the JSON/glTF/ZRes file, relative to the application path </td></tr>
+    <tr><td class="paramname">usecache</td><td>put loaded resources in the global resources cache </td></tr>
   </table>
   </dd>
 </dl>
@@ -120,7 +132,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacez0.html">z0</a></li><li class="navelem"><a class="el" href="classz0_1_1Loader.html">Loader</a></li>
-    <li class="footer">Generated on jeu. déc. 5 2024 15:54:17 for ZeroZero &nbsp; by
+    <li class="footer">Generated on mar. janv. 7 2025 08:02:56 for ZeroZero &nbsp; by
     <a href="https://www.copperspice.com/documentation-doxypress.html">
     <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.7.0 </li>
   </ul>
