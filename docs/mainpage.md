@@ -36,6 +36,11 @@ Examples
 
 Screenshots
 ---------------------------------------------------------------------------
+Example level with tunnel, doors and rooms (with [Space Colony Modular Kit Bash](https://www.fab.com/listings/13206d95-b723-4ff3-a1ce-577d8259480b)):
+
+[![Example level](https://img.youtube.com/vi/qW5M_U54oBU/0.jpg)](https://www.youtube.com/watch?v=qW5M_U54oBU)
+
+
 Classic Sponza with one OmniLight:
 ![screenshot_sponza.png](images/screenshot_sponza.png)
 
@@ -47,9 +52,6 @@ Classic Sponza with one OmniLight:
 
 [Collision objects debug](004_debug_renderer.md) :
 ![screenshot_debug.png](images/screenshot_debug.png)
-
-Example level with tunnel, doors and rooms (with [Space Colony Modular Kit Bash](https://www.fab.com/listings/13206d95-b723-4ff3-a1ce-577d8259480b)):
-[![Example level](https://img.youtube.com/vi/qW5M_U54oBU/0.jpg)](https://www.youtube.com/watch?v=qW5M_U54oBU)
 
 Contact
 ---------------------------------------------------------------------------
