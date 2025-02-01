@@ -327,6 +327,7 @@ var NAVTREE =
           [ "Character", "classz0_1_1Character.html", [
             [ "Character", "classz0_1_1Character.html#aeda230fac2a499f78670d37b10d5a516", null ],
             [ "getCollisions", "classz0_1_1Character.html#a83a2b9e56e39dfe1a69b4f8b39206e2f", null ],
+            [ "getGround", "classz0_1_1Character.html#a0702ddadb95d7a3b0e1a8512fc423cab", null ],
             [ "getGroundVelocity", "classz0_1_1Character.html#ab6c66fbce93b9a069fad89afa1a77b6a", null ],
             [ "getUpVector", "classz0_1_1Character.html#acb50a98d59d128b9d304816483bdac1e", null ],
             [ "isGround", "classz0_1_1Character.html#ae7adba2d739cb4ad105dd0284b22bd2d", null ],
@@ -334,7 +335,7 @@ var NAVTREE =
             [ "setMaxSlopeAngle", "classz0_1_1Character.html#a2c11980432362ac845edfb4ff3db81f5", null ],
             [ "setShape", "classz0_1_1Character.html#ad55623ee56a80621f83a31259b6774c2", null ],
             [ "setUpVector", "classz0_1_1Character.html#ae67b15bfc9ce19af63ab97b369065de5", null ],
-            [ "setVelocity", "classz0_1_1Character.html#ab50de681d36ceadee050baed609ea3a4", null ]
+            [ "setVelocity", "classz0_1_1Character.html#a59febee1cce9dfdfffe0d32cc19e188f", null ]
           ] ],
           [ "CollisionArea", "classz0_1_1CollisionArea.html", [
             [ "CollisionArea", "classz0_1_1CollisionArea.html#a9073fc2bfaeb2b5a4f660081297eae55", null ],
@@ -347,13 +348,9 @@ var NAVTREE =
               [ "object", "structz0_1_1CollisionObject_1_1Collision.html#afe7baac8f14963239f3d408ea001cf7c", null ],
               [ "position", "structz0_1_1CollisionObject_1_1Collision.html#a2807b9fb4b79e01dfde022b613d2575f", null ]
             ] ],
-            [ "applyForce", "classz0_1_1CollisionObject.html#aadf6930c1a69e029acf4481bf9b38fc0", null ],
-            [ "applyForce", "classz0_1_1CollisionObject.html#ab9ea505fcdb115839778cb80dba95c87", null ],
             [ "getCollisionLayer", "classz0_1_1CollisionObject.html#a45c512296b36eedaf874f9c824bbf29f", null ],
-            [ "getVelocity", "classz0_1_1CollisionObject.html#af845917f483db6b9c329f5bd02e75ebd", null ],
             [ "setCollisionLayer", "classz0_1_1CollisionObject.html#a71a5d10522d6fef70772d75c709850a3", null ],
             [ "setProperty", "classz0_1_1CollisionObject.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ],
-            [ "setVelocity", "classz0_1_1CollisionObject.html#a8b0c163a84bbacd299a8be664f9220f8", null ],
             [ "setVisible", "classz0_1_1CollisionObject.html#a865b6f3495585c790494181f9ab4c9ee", null ],
             [ "wereInContact", "classz0_1_1CollisionObject.html#ae7d020cf7bf2b1515fe43b8966f88fad", null ]
           ] ],
@@ -469,7 +466,8 @@ var NAVTREE =
             [ "getRelativeY", "classz0_1_1InputEventMouseMotion.html#ab3d382522675393189f7f13d4fc5d9a0", null ]
           ] ],
           [ "KinematicBody", "classz0_1_1KinematicBody.html", [
-            [ "KinematicBody", "classz0_1_1KinematicBody.html#a3508644bf0ba29f3a55fdd1c0b61e087", null ]
+            [ "KinematicBody", "classz0_1_1KinematicBody.html#a3508644bf0ba29f3a55fdd1c0b61e087", null ],
+            [ "KinematicBody", "classz0_1_1KinematicBody.html#afe44e569236c880f82e56196edc0fb9c", null ]
           ] ],
           [ "Light", "classz0_1_1Light.html", [
             [ "LightType", "classz0_1_1Light.html#adc3ec8293e6a97ebe43f0196b9a7f638", null ],
@@ -507,7 +505,8 @@ var NAVTREE =
             [ "isOutlined", "classz0_1_1MeshInstance.html#a64feaeebe1e1f4ba35d230b9f60b1aeb", null ],
             [ "isValid", "classz0_1_1MeshInstance.html#a5bc2a781be2586924afce4e4a4ea6697", null ],
             [ "setOutlined", "classz0_1_1MeshInstance.html#a3a9efc00f38f5aa6009ce9caea593b12", null ],
-            [ "setOutlineMaterial", "classz0_1_1MeshInstance.html#af52739770e581b351a5e8164e6777480", null ]
+            [ "setOutlineMaterial", "classz0_1_1MeshInstance.html#af52739770e581b351a5e8164e6777480", null ],
+            [ "setProperty", "classz0_1_1MeshInstance.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ]
           ] ],
           [ "MeshShape", "classz0_1_1MeshShape.html", [
             [ "MeshShape", "classz0_1_1MeshShape.html#a3adafea16a1d87f9c4fa9e5cd901f2f7", null ],
@@ -547,7 +546,7 @@ var NAVTREE =
             [ "getRotationY", "classz0_1_1Node.html#a17fd057679dbb34530daa376abcf45e7", null ],
             [ "getRotationZ", "classz0_1_1Node.html#a2add690e2f19a3c247cc551d2e28556d", null ],
             [ "getScale", "classz0_1_1Node.html#a26fddd47ca962f874d10775a454f0286", null ],
-            [ "getTransformGlobal", "classz0_1_1Node.html#a02e5529d17426969bd76fcb3b80221a3", null ],
+            [ "getTransformGlobal", "classz0_1_1Node.html#a04c70372e62e075dac85ad9944683ab4", null ],
             [ "getTransformLocal", "classz0_1_1Node.html#a39c13ce547fc39faa6b507f9aded88da", null ],
             [ "getType", "classz0_1_1Node.html#a97c56d51eec84be3e856eb0ca6ebd3d4", null ],
             [ "getUpVector", "classz0_1_1Node.html#afc56f6b1c1fdc2f457a32f689d1db632", null ],
@@ -606,9 +605,15 @@ var NAVTREE =
             [ "get", "classz0_1_1OutlineMaterials.html#a28ba51a146d4bffbdb35db1a1be0f682", null ]
           ] ],
           [ "PhysicsBody", "classz0_1_1PhysicsBody.html", [
-            [ "setGravityScale", "classz0_1_1PhysicsBody.html#a9b84b1ab56c014235177033cf8134fb3", null ],
+            [ "applyForce", "classz0_1_1PhysicsBody.html#aadf6930c1a69e029acf4481bf9b38fc0", null ],
+            [ "applyForce", "classz0_1_1PhysicsBody.html#ab9ea505fcdb115839778cb80dba95c87", null ],
+            [ "getVelocity", "classz0_1_1PhysicsBody.html#af845917f483db6b9c329f5bd02e75ebd", null ],
+            [ "setBounce", "classz0_1_1PhysicsBody.html#a83ef14354652d9e36ed1b73601dd7f7f", null ],
+            [ "setGravityFactor", "classz0_1_1PhysicsBody.html#adb5a8ee1c52e4e9ccb33e0b4ce5b0597", null ],
+            [ "setMass", "classz0_1_1PhysicsBody.html#af40a11006265ce9318a67703d93784c8", null ],
             [ "setProperty", "classz0_1_1PhysicsBody.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ],
-            [ "setShape", "classz0_1_1PhysicsBody.html#af50ab76341c58a919cb1662bc9f78be9", null ]
+            [ "setShape", "classz0_1_1PhysicsBody.html#af50ab76341c58a919cb1662bc9f78be9", null ],
+            [ "setVelocity", "classz0_1_1PhysicsBody.html#a8b0c163a84bbacd299a8be664f9220f8", null ]
           ] ],
           [ "PropertyTween", "classz0_1_1PropertyTween.html", [
             [ "Setter", "classz0_1_1PropertyTween.html#a35f9c15fd3642ea464341c256f5647d7", null ],
@@ -636,8 +641,6 @@ var NAVTREE =
           [ "RigidBody", "classz0_1_1RigidBody.html", [
             [ "RigidBody", "classz0_1_1RigidBody.html#a79323e0fda48e05079378cbe0bee6749", null ],
             [ "RigidBody", "classz0_1_1RigidBody.html#abe46ebcf415b84b7fb2e88c95016fed4", null ],
-            [ "setBounce", "classz0_1_1RigidBody.html#a83ef14354652d9e36ed1b73601dd7f7f", null ],
-            [ "setMass", "classz0_1_1RigidBody.html#af40a11006265ce9318a67703d93784c8", null ],
             [ "setProperty", "classz0_1_1RigidBody.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ]
           ] ],
           [ "ShaderMaterial", "classz0_1_1ShaderMaterial.html", [
@@ -857,8 +860,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classz0_1_1Node.html#aa78040e62ff9b24361710dc9dab7dcc9",
-"classz0_1_1ui_1_1Window.html#a8dc37c07c0a326bbd98386b26f6b7221"
+"classz0_1_1Node.html#aa83dd31fea0c6e52cc6f71c25c7fc2b5",
+"classz0_1_1ui_1_1Window.html#a852febed09e5a3f9c4dba30aab9a05e8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

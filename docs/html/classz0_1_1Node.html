@@ -123,8 +123,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ad5ef4d4f0e404eddbc46e41389042ef3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39c13ce547fc39faa6b507f9aded88da"><td class="memItemLeft" align="right" valign="top">const mat4 &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#a39c13ce547fc39faa6b507f9aded88da">getTransformLocal</a> () const</td></tr>
 <tr class="separator:a39c13ce547fc39faa6b507f9aded88da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02e5529d17426969bd76fcb3b80221a3"><td class="memItemLeft" align="right" valign="top">mat4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#a02e5529d17426969bd76fcb3b80221a3">getTransformGlobal</a> () const</td></tr>
-<tr class="separator:a02e5529d17426969bd76fcb3b80221a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04c70372e62e075dac85ad9944683ab4"><td class="memItemLeft" align="right" valign="top">const mat4 &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#a04c70372e62e075dac85ad9944683ab4">getTransformGlobal</a> () const</td></tr>
+<tr class="separator:a04c70372e62e075dac85ad9944683ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acde249fc77213cefd74b711382bffd89"><td class="memItemLeft" align="right" valign="top">vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#acde249fc77213cefd74b711382bffd89">toGlobal</a> (vec3 local) const</td></tr>
 <tr class="separator:acde249fc77213cefd74b711382bffd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4347bf48760cbfe7132a54ecd43063df"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#a4347bf48760cbfe7132a54ecd43063df">setPosition</a> (vec3 position)</td></tr>
@@ -344,7 +344,7 @@ Public Member Functions</h2></td></tr>
  The node will be added to the scene at the start of the next frame. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">child</td><td>the node to add </td></tr>
-    <tr><td class="paramname">async</td><td>if <code>true</code> and the node is a tree of node they will be added in batch mode. Be careful to set the visibility of the nodes to <code>false</code>or they will appear slowly in the scene. </td></tr>
+    <tr><td class="paramname">async</td><td>if <code>true</code> and the node have children all the nodes will be added in batch mode. Be careful to set the visibility of the nodes to <code>false</code>or they will appear slowly in the scene. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1079,7 +1079,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a02e5529d17426969bd76fcb3b80221a3"></a>
+<a class="anchor" id="a04c70372e62e075dac85ad9944683ab4"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -1087,7 +1087,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">mat4 getTransformGlobal </td>
+          <td class="memname">const mat4&amp; getTransformGlobal </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1501,8 +1501,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Removes a child node. The node, along with its children <b>can</b> be deleted depending on their reference counter.</p>
-<p>Removes all children nodes. The nodes, along with their children <b>can</b> be deleted depending on their reference counters. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>Removes all children nodes. The nodes, along with their children <b>can</b> be deleted depending on their reference counters. The nodes will be removed from the scene at the start of the next frame. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">async</td><td>if <code>true</code> and the nodes will be removed in batch mode. Be careful to set the visibility of the nodes to <code>false</code> or they will disappear slowly from the scene. </td></tr>
   </table>
@@ -1539,7 +1538,7 @@ Public Member Functions</h2></td></tr>
  The node will be removed from the scene at the start of the next frame. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">child</td><td>the node to remove </td></tr>
-    <tr><td class="paramname">async</td><td>if <code>true</code> and the node is a tree of node they will be removed in batch mode. Be careful to set the visibility of the nodes to <code>false</code> or they will disappear slowly from the scene. </td></tr>
+    <tr><td class="paramname">async</td><td>if <code>true</code> and the node have children all the nodes will be removed in batch mode. Be careful to set the visibility of the nodes to <code>false</code> or they will disappear slowly from the scene. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1755,7 +1754,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Sets a property by is name and value. Currently, not all properties in all nodes classes are supported. </p>
 
-<p>Reimplemented in <a class="el" href="classz0_1_1CollisionObject.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::CollisionObject::setProperty()</a>, <a class="el" href="classz0_1_1SpotLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::SpotLight::setProperty()</a>, <a class="el" href="classz0_1_1Light.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Light::setProperty()</a>, <a class="el" href="classz0_1_1Skybox.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Skybox::setProperty()</a>, <a class="el" href="classz0_1_1OmniLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::OmniLight::setProperty()</a>, <a class="el" href="classz0_1_1PhysicsBody.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::PhysicsBody::setProperty()</a>, <a class="el" href="classz0_1_1RigidBody.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::RigidBody::setProperty()</a>, <a class="el" href="classz0_1_1Environment.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Environment::setProperty()</a>, <a class="el" href="classz0_1_1DirectionalLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::DirectionalLight::setProperty()</a>, <a class="el" href="classz0_1_1CollisionArea.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::CollisionArea::setProperty()</a></p>
+<p>Reimplemented in <a class="el" href="classz0_1_1MeshInstance.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::MeshInstance::setProperty()</a>, <a class="el" href="classz0_1_1SpotLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::SpotLight::setProperty()</a>, <a class="el" href="classz0_1_1CollisionObject.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::CollisionObject::setProperty()</a>, <a class="el" href="classz0_1_1PhysicsBody.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::PhysicsBody::setProperty()</a>, <a class="el" href="classz0_1_1Light.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Light::setProperty()</a>, <a class="el" href="classz0_1_1Skybox.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Skybox::setProperty()</a>, <a class="el" href="classz0_1_1OmniLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::OmniLight::setProperty()</a>, <a class="el" href="classz0_1_1Environment.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Environment::setProperty()</a>, <a class="el" href="classz0_1_1DirectionalLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::DirectionalLight::setProperty()</a>, <a class="el" href="classz0_1_1CollisionArea.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::CollisionArea::setProperty()</a>, <a class="el" href="classz0_1_1RigidBody.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::RigidBody::setProperty()</a></p>
 
 </div>
 </div>
@@ -1989,7 +1988,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacez0.html">z0</a></li><li class="navelem"><a class="el" href="classz0_1_1Node.html">Node</a></li>
-    <li class="footer">Generated on jeu. janv. 9 2025 15:46:24 for ZeroZero &nbsp; by
+    <li class="footer">Generated on sam. févr. 1 2025 11:45:41 for ZeroZero &nbsp; by
     <a href="https://www.copperspice.com/documentation-doxypress.html">
     <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.7.0 </li>
   </ul>
