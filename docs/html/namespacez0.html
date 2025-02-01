@@ -121,8 +121,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structz0_1_1Frustum.html">Frustum</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1GlTF.html">GlTF</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Image.html">Image</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1ImageTexture.html">ImageTexture</a></td></tr>
@@ -208,8 +206,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1VirtualFS.html">VirtualFS</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Window.html">Window</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1ZRes.html">ZRes</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -507,6 +503,12 @@ Functions</h2></td></tr>
 <tr class="separator:ac22b4172159db99cc44ee8eb51a751c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3edc3d718dc144172c63f732bb5d3cf4"><td class="memItemLeft" align="right" valign="top">vector&lt; string_view &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez0.html#a3edc3d718dc144172c63f732bb5d3cf4">split</a> (string_view str, char delimiter)</td></tr>
 <tr class="separator:a3edc3d718dc144172c63f732bb5d3cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a790f71336b318569d460ce06b8cf7b85"><td class="memItemLeft" align="right" valign="top">vec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez0.html#a790f71336b318569d460ce06b8cf7b85">lerp</a> (const vec2 a, const vec2 b, const float t)</td></tr>
+<tr class="separator:a790f71336b318569d460ce06b8cf7b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a548b8563b09baefafd99533e2e1f41"><td class="memItemLeft" align="right" valign="top">vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez0.html#a4a548b8563b09baefafd99533e2e1f41">lerp</a> (const vec3 a, const vec3 b, const float t)</td></tr>
+<tr class="separator:a4a548b8563b09baefafd99533e2e1f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cf765374c71722c31692db4984aa71e"><td class="memItemLeft" align="right" valign="top">vec4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez0.html#a2cf765374c71722c31692db4984aa71e">lerp</a> (const vec4 a, const vec4 b, const float t)</td></tr>
+<tr class="separator:a2cf765374c71722c31692db4984aa71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -1443,6 +1445,129 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a790f71336b318569d460ce06b8cf7b85"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vec2 z0::lerp </td>
+          <td>(</td>
+          <td class="paramtype">const vec2&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const vec2&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>lerp for a vec2 using std::lerp for componants </p>
+
+</div>
+</div>
+<a class="anchor" id="a4a548b8563b09baefafd99533e2e1f41"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vec3 z0::lerp </td>
+          <td>(</td>
+          <td class="paramtype">const vec3&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const vec3&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>lerp for a vec3 using std::lerp for componants </p>
+
+</div>
+</div>
+<a class="anchor" id="a2cf765374c71722c31692db4984aa71e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vec4 z0::lerp </td>
+          <td>(</td>
+          <td class="paramtype">const vec4&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const vec4&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float&#160;</td>
+          <td class="paramname"><em>t</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>lerp for a vec4 using std::lerp for componants </p>
+
+</div>
+</div>
 <a class="anchor" id="a606b4dda67a44b470717b494219b60dc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1864,7 +1989,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacez0.html">z0</a></li>
-    <li class="footer">Generated on jeu. déc. 5 2024 15:54:17 for ZeroZero &nbsp; by
+    <li class="footer">Generated on jeu. janv. 9 2025 15:46:24 for ZeroZero &nbsp; by
     <a href="https://www.copperspice.com/documentation-doxypress.html">
     <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.7.0 </li>
   </ul>
