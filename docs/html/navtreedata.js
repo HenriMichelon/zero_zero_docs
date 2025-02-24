@@ -122,8 +122,8 @@ var NAVTREE =
                 [ "IMAGE", "classz0_1_1ui_1_1Widget.html#a1d1cfd8ffb84e947f82999c682b666a7a3501d25cdde2b141c20edb67965fb692", null ]
               ] ],
               [ "Widget", "classz0_1_1ui_1_1Widget.html#a5ed2b288d888d67fc1dfe02f67211412", null ],
-              [ "add", "classz0_1_1ui_1_1Widget.html#aecbd8093f88ddce8d9197396da1863e2", null ],
-              [ "enable", "classz0_1_1ui_1_1Widget.html#a3ca96a66a9b79d8bfb28cf30091a9985", null ],
+              [ "add", "classz0_1_1ui_1_1Widget.html#a405b83b3ec8cc4f6ab8f74630648a9a8", null ],
+              [ "enable", "classz0_1_1ui_1_1Widget.html#a60b5bc48cef0147ac07d66dff404e32f", null ],
               [ "getAlignment", "classz0_1_1ui_1_1Widget.html#ab48a26814c052dbce1a585359d326e2a", null ],
               [ "getFont", "classz0_1_1ui_1_1Widget.html#a0a454a703a010af4deca862b713ecc62", null ],
               [ "getGroupIndex", "classz0_1_1ui_1_1Widget.html#a5fa73c75f0c5372deee8c84d301049c0", null ],
@@ -140,7 +140,7 @@ var NAVTREE =
               [ "isFocused", "classz0_1_1ui_1_1Widget.html#a441f2c8ed1686b5044c74a05124a41fc", null ],
               [ "isVisible", "classz0_1_1ui_1_1Widget.html#a9d8a6cfb13917785c143e74d40e4e2be", null ],
               [ "refresh", "classz0_1_1ui_1_1Widget.html#a04b239faa177a519db7f2495deea9860", null ],
-              [ "remove", "classz0_1_1ui_1_1Widget.html#aa7eb5a6c81f8c30e06a3db3ef978038b", null ],
+              [ "remove", "classz0_1_1ui_1_1Widget.html#ab0a6945ace072a70260add004d5bf517", null ],
               [ "removeAll", "classz0_1_1ui_1_1Widget.html#a4e62c805a8478320f1e650e6a635b31a", null ],
               [ "setAlignment", "classz0_1_1ui_1_1Widget.html#a7fb9c97d247db419b2eb6df57e4669af", null ],
               [ "setDrawBackground", "classz0_1_1ui_1_1Widget.html#a209e0e0a7031c193799794adab9d7c73", null ],
@@ -158,8 +158,8 @@ var NAVTREE =
             ] ],
             [ "Window", "classz0_1_1ui_1_1Window.html", [
               [ "ResizeableBorder", "classz0_1_1ui_1_1Window.html#a13c7760cc37358e9de809fd911d9a08e", null ],
-              [ "Window", "classz0_1_1ui_1_1Window.html#a4dd931629def8e61d9470759f05696e5", null ],
-              [ "add", "classz0_1_1ui_1_1Window.html#a5c59deee282b47838c603e5f0bb55cb8", null ],
+              [ "Window", "classz0_1_1ui_1_1Window.html#a5f581a619ec1adbcee7d16e3c9a40559", null ],
+              [ "add", "classz0_1_1ui_1_1Window.html#ad6acb70ef3b903c05c467dda6d27bf6b", null ],
               [ "getDefaultFont", "classz0_1_1ui_1_1Window.html#a8eb3199e8d13defc721b22ac72cf34f5", null ],
               [ "getHeight", "classz0_1_1ui_1_1Window.html#ae07ffc83c6e2586b09157cacd623819b", null ],
               [ "getMaximumHeight", "classz0_1_1ui_1_1Window.html#a57440f6c10a5d6f51fc2c3283732f4bb", null ],
@@ -177,8 +177,8 @@ var NAVTREE =
               [ "onDestroy", "classz0_1_1ui_1_1Window.html#a448d46f0dcad2b19c77f8a2cc880127c", null ],
               [ "onGotFocus", "classz0_1_1ui_1_1Window.html#a5efc8f0f738865cb698db79793a21946", null ],
               [ "onHide", "classz0_1_1ui_1_1Window.html#a21044e2c7eae8f42c4a108ad0afc9113", null ],
-              [ "onKeyDown", "classz0_1_1ui_1_1Window.html#a24e57998c8d520778af4a23a25666ef4", null ],
-              [ "onKeyUp", "classz0_1_1ui_1_1Window.html#ae4ff17cd2071e9c30d18b1aed2eae36b", null ],
+              [ "onKeyDown", "classz0_1_1ui_1_1Window.html#a706e9ad961138d813ace704bdfc31667", null ],
+              [ "onKeyUp", "classz0_1_1ui_1_1Window.html#a9483391d780dbe94ef5d5c3d0b349392", null ],
               [ "onLostFocus", "classz0_1_1ui_1_1Window.html#a852febed09e5a3f9c4dba30aab9a05e8", null ],
               [ "onMouseDown", "classz0_1_1ui_1_1Window.html#a8af20a349d67950f788b2fd47c8b4a16", null ],
               [ "onMouseMove", "classz0_1_1ui_1_1Window.html#ac6afe945edb40c492570cb4c68018de4", null ],
@@ -186,22 +186,22 @@ var NAVTREE =
               [ "onMove", "classz0_1_1ui_1_1Window.html#ac004f878bbd29861f5de77675d209c8e", null ],
               [ "onResize", "classz0_1_1ui_1_1Window.html#a1efa3541e3ee605829835b1e9ea424f7", null ],
               [ "onShow", "classz0_1_1ui_1_1Window.html#a3061b7efb13eaffafb2777818caa0d81", null ],
-              [ "remove", "classz0_1_1ui_1_1Window.html#a4e47cc3dd2a7d9fc8f1652635be1f2bd", null ],
+              [ "remove", "classz0_1_1ui_1_1Window.html#a2f8149e5c8af7fd3011419a7693166ea", null ],
               [ "setFocusedWidget", "classz0_1_1ui_1_1Window.html#a8ff99700aa53952002659ecd7d07584a", null ],
-              [ "setHeight", "classz0_1_1ui_1_1Window.html#a90a0d679a4dffb138d598c580521f4c4", null ],
+              [ "setHeight", "classz0_1_1ui_1_1Window.html#a1cae8173a27f7a029a6610975b5e5cbc", null ],
               [ "setMaximumSize", "classz0_1_1ui_1_1Window.html#a1b2b0997ee905b641cbce182ed56e701", null ],
               [ "setMinimumSize", "classz0_1_1ui_1_1Window.html#a581cb3790ebb05a93687e50a89d726b7", null ],
               [ "setPos", "classz0_1_1ui_1_1Window.html#a279e5bc017600c39f350b9477b2d8985", null ],
               [ "setPos", "classz0_1_1ui_1_1Window.html#adeff71084302c3d3f01d6f4448a6cc9a", null ],
-              [ "setRect", "classz0_1_1ui_1_1Window.html#af062da89d2035532c1aaa875cbc72001", null ],
-              [ "setResizeableBorders", "classz0_1_1ui_1_1Window.html#afc0c52684fff57210dccd9b5f26a5a64", null ],
-              [ "setStyle", "classz0_1_1ui_1_1Window.html#ad674ba5b88990e075693381fa5d25784", null ],
+              [ "setRect", "classz0_1_1ui_1_1Window.html#a9451850986c7d37a240e3a76e395c35b", null ],
+              [ "setResizeableBorders", "classz0_1_1ui_1_1Window.html#a639675bb1d59c31249d5bc2d63ce6f02", null ],
+              [ "setStyle", "classz0_1_1ui_1_1Window.html#ae4f923f7f6d365b790eeda6582a86e74", null ],
               [ "setTransparency", "classz0_1_1ui_1_1Window.html#a27b33e5e59dc9181cd74d70c68451192", null ],
-              [ "setVisible", "classz0_1_1ui_1_1Window.html#a3d832a4ecb222f0b19b3ae14c6b07f77", null ],
-              [ "setWidget", "classz0_1_1ui_1_1Window.html#a8cd1543d08679d7b8e8b294e2767d639", null ],
-              [ "setWidth", "classz0_1_1ui_1_1Window.html#ad184083542f5af76dc2ec58bbb48d9e5", null ],
-              [ "setX", "classz0_1_1ui_1_1Window.html#a29cff27de7a20dec4a4a53cf56e3e73a", null ],
-              [ "setY", "classz0_1_1ui_1_1Window.html#a206f05ae1c5d3145a61e9ce6c9d81e07", null ],
+              [ "setVisible", "classz0_1_1ui_1_1Window.html#a7e6108ec64a6cb8b2566c8342e50540c", null ],
+              [ "setWidget", "classz0_1_1ui_1_1Window.html#ab6b1b5ddd507e7f8127cfeecf7ee03d3", null ],
+              [ "setWidth", "classz0_1_1ui_1_1Window.html#a21926c99f9ed7ba46fb67cf6f5095312", null ],
+              [ "setX", "classz0_1_1ui_1_1Window.html#aa81471deead2614fe7cd120071a03683", null ],
+              [ "setY", "classz0_1_1ui_1_1Window.html#a13358a3eda5f348a4e7c5c06299f787c", null ],
               [ "show", "classz0_1_1ui_1_1Window.html#a4b148f40a95444d5669406b918ad2f52", null ]
             ] ]
           ] ],
@@ -296,10 +296,12 @@ var NAVTREE =
             [ "gamma", "structz0_1_1ApplicationConfig.html#a44978e15ba7fdb6b664ea10411fbe69d", null ],
             [ "layerCollisionTable", "structz0_1_1ApplicationConfig.html#ad6579a2ef997c22313af2a27f34a816a", null ],
             [ "loggingMode", "structz0_1_1ApplicationConfig.html#a0de087c1875053c6108a4de06c9e53d0", null ],
-            [ "loggingMonitor", "structz0_1_1ApplicationConfig.html#a9c3081b35c63ba998e8231517a9a4888", null ],
+            [ "logLevelMin", "structz0_1_1ApplicationConfig.html#a34b22a9094f19f52c7d487dea12d8a06", null ],
+            [ "meshSimplifyThreshold", "structz0_1_1ApplicationConfig.html#a4c4f4aef91363fbd20472b4daf1374b9", null ],
             [ "msaa", "structz0_1_1ApplicationConfig.html#a58daf641d993a02e7806fe8b763fad6c", null ],
             [ "pointLightShadowMapSize", "structz0_1_1ApplicationConfig.html#afda0c6fe15aca88dc0aa80e95864a041", null ],
             [ "useDepthPrepass", "structz0_1_1ApplicationConfig.html#a776847f292e10f2bbaeee8c1ce59bc41", null ],
+            [ "vSyncMode", "structz0_1_1ApplicationConfig.html#a0c4f4af589c9fd3784e43d75259b1099", null ],
             [ "windowHeight", "structz0_1_1ApplicationConfig.html#a09caaefd7e6a6272b099c33e11b60a33", null ],
             [ "windowMode", "structz0_1_1ApplicationConfig.html#ac9cbcb24d11d6cc7b73cfadac22dcced", null ],
             [ "windowMonitor", "structz0_1_1ApplicationConfig.html#adf1903babe48f7ea0e2ebdb290f2c97d", null ],
@@ -480,6 +482,7 @@ var NAVTREE =
           ] ],
           [ "Loader", "classz0_1_1Loader.html", null ],
           [ "Locale", "classz0_1_1Locale.html", null ],
+          [ "Log", "structz0_1_1Log.html", null ],
           [ "Material", "classz0_1_1Material.html", [
             [ "getAlphaScissor", "classz0_1_1Material.html#a7b1b66e41160586172a1998e84baa8be", null ],
             [ "getCullMode", "classz0_1_1Material.html#a58a3ece90ef1bf69c081a151112b6c2a", null ],
@@ -506,8 +509,7 @@ var NAVTREE =
             [ "isOutlined", "classz0_1_1MeshInstance.html#a64feaeebe1e1f4ba35d230b9f60b1aeb", null ],
             [ "isValid", "classz0_1_1MeshInstance.html#a5bc2a781be2586924afce4e4a4ea6697", null ],
             [ "setOutlined", "classz0_1_1MeshInstance.html#a3a9efc00f38f5aa6009ce9caea593b12", null ],
-            [ "setOutlineMaterial", "classz0_1_1MeshInstance.html#af52739770e581b351a5e8164e6777480", null ],
-            [ "setProperty", "classz0_1_1MeshInstance.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ]
+            [ "setOutlineMaterial", "classz0_1_1MeshInstance.html#af52739770e581b351a5e8164e6777480", null ]
           ] ],
           [ "MeshShape", "classz0_1_1MeshShape.html", [
             [ "MeshShape", "classz0_1_1MeshShape.html#a3adafea16a1d87f9c4fa9e5cd901f2f7", null ],
@@ -570,6 +572,7 @@ var NAVTREE =
             [ "rotateX", "classz0_1_1Node.html#a42d657c51846d0c104e4f1614e3dc689", null ],
             [ "rotateY", "classz0_1_1Node.html#a27be02acacb53bf2a010488a051b25a9", null ],
             [ "rotateZ", "classz0_1_1Node.html#aa2a7537526f3ae676af7cca05157c7e3", null ],
+            [ "setCastShadows", "classz0_1_1Node.html#ada3290c364bdf847b0d9e6e64e403f86", null ],
             [ "setName", "classz0_1_1Node.html#af17621c2c136d4a27d15b0fe6b4d09b1", null ],
             [ "setPosition", "classz0_1_1Node.html#a4347bf48760cbfe7132a54ecd43063df", null ],
             [ "setPositionGlobal", "classz0_1_1Node.html#af542137705aabf900ab071bd426a39ad", null ],
@@ -755,6 +758,7 @@ var NAVTREE =
         [ "Input", "classz0_1_1Input.html", null ],
         [ "Loader", "classz0_1_1Loader.html", null ],
         [ "Locale", "classz0_1_1Locale.html", null ],
+        [ "Log", "structz0_1_1Log.html", null ],
         [ "Object", "classz0_1_1Object.html", [
           [ "InputEvent", "classz0_1_1InputEvent.html", [
             [ "InputEventGamepadButton", "classz0_1_1InputEventGamepadButton.html", null ],
@@ -863,8 +867,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classz0_1_1Node.html#aa78040e62ff9b24361710dc9dab7dcc9",
-"classz0_1_1ui_1_1Window.html#a5c59deee282b47838c603e5f0bb55cb8"
+"classz0_1_1Node.html#aa83dd31fea0c6e52cc6f71c25c7fc2b5",
+"classz0_1_1ui_1_1Window.html#a639675bb1d59c31249d5bc2d63ce6f02"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

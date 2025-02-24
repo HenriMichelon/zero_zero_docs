@@ -256,6 +256,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4170481c0798c899b545b15baccd08e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e8968971720e140c7316aa352d075d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#a1e8968971720e140c7316aa352d075d2">isInsideTree</a> () const</td></tr>
 <tr class="separator:a1e8968971720e140c7316aa352d075d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada3290c364bdf847b0d9e6e64e403f86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#ada3290c364bdf847b0d9e6e64e403f86">setCastShadows</a> (bool castShadows)</td></tr>
+<tr class="separator:ada3290c364bdf847b0d9e6e64e403f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classz0_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classz0_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classz0_1_1Object.html">Object</a></td></tr>
 <tr class="memitem:a579b003a1ba1245a7df4211306856aee inherit pub_methods_classz0_1_1Object"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Object.html#a579b003a1ba1245a7df4211306856aee">connect</a> (const Signal::signal &amp;name, const <a class="el" href="classz0_1_1Signal.html#a220824176016286d99374f7f99187a18">Signal::Handler</a> &amp;handler)</td></tr>
 <tr class="separator:a579b003a1ba1245a7df4211306856aee inherit pub_methods_classz0_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1635,6 +1637,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ada3290c364bdf847b0d9e6e64e403f86"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setCastShadows </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>castShadows</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Recursively sets the cast_shadows property </p>
+
+</div>
+</div>
 <a class="anchor" id="af17621c2c136d4a27d15b0fe6b4d09b1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1768,7 +1787,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Sets a property by is name and value. Currently, not all properties in all nodes classes are supported. </p>
 
-<p>Reimplemented in <a class="el" href="classz0_1_1MeshInstance.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::MeshInstance::setProperty()</a>, <a class="el" href="classz0_1_1SpotLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::SpotLight::setProperty()</a>, <a class="el" href="classz0_1_1CollisionObject.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::CollisionObject::setProperty()</a>, <a class="el" href="classz0_1_1PhysicsBody.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::PhysicsBody::setProperty()</a>, <a class="el" href="classz0_1_1Light.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Light::setProperty()</a>, <a class="el" href="classz0_1_1Skybox.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Skybox::setProperty()</a>, <a class="el" href="classz0_1_1OmniLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::OmniLight::setProperty()</a>, <a class="el" href="classz0_1_1Environment.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Environment::setProperty()</a>, <a class="el" href="classz0_1_1DirectionalLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::DirectionalLight::setProperty()</a>, <a class="el" href="classz0_1_1CollisionArea.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::CollisionArea::setProperty()</a>, <a class="el" href="classz0_1_1RigidBody.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::RigidBody::setProperty()</a></p>
+<p>Reimplemented in <a class="el" href="classz0_1_1SpotLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::SpotLight::setProperty()</a>, <a class="el" href="classz0_1_1CollisionObject.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::CollisionObject::setProperty()</a>, <a class="el" href="classz0_1_1PhysicsBody.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::PhysicsBody::setProperty()</a>, <a class="el" href="classz0_1_1Light.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Light::setProperty()</a>, <a class="el" href="classz0_1_1Skybox.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Skybox::setProperty()</a>, <a class="el" href="classz0_1_1OmniLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::OmniLight::setProperty()</a>, <a class="el" href="classz0_1_1Environment.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Environment::setProperty()</a>, <a class="el" href="classz0_1_1DirectionalLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::DirectionalLight::setProperty()</a>, <a class="el" href="classz0_1_1CollisionArea.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::CollisionArea::setProperty()</a>, <a class="el" href="classz0_1_1RigidBody.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::RigidBody::setProperty()</a></p>
 
 </div>
 </div>
@@ -2027,7 +2046,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacez0.html">z0</a></li><li class="navelem"><a class="el" href="classz0_1_1Node.html">Node</a></li>
-    <li class="footer">Generated on ven. févr. 21 2025 14:08:34 for ZeroZero &nbsp; by
+    <li class="footer">Generated on lun. févr. 24 2025 09:06:59 for ZeroZero &nbsp; by
     <a href="https://www.copperspice.com/documentation-doxypress.html">
     <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.7.0 </li>
   </ul>
