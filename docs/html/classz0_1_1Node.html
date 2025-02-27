@@ -127,6 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a04c70372e62e075dac85ad9944683ab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acde249fc77213cefd74b711382bffd89"><td class="memItemLeft" align="right" valign="top">vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#acde249fc77213cefd74b711382bffd89">toGlobal</a> (vec3 local) const</td></tr>
 <tr class="separator:acde249fc77213cefd74b711382bffd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc8204413a4dfb521f4378c6683a4110"><td class="memItemLeft" align="right" valign="top">vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#afc8204413a4dfb521f4378c6683a4110">toLocal</a> (vec3 global) const</td></tr>
+<tr class="separator:afc8204413a4dfb521f4378c6683a4110"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4347bf48760cbfe7132a54ecd43063df"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#a4347bf48760cbfe7132a54ecd43063df">setPosition</a> (vec3 position)</td></tr>
 <tr class="separator:a4347bf48760cbfe7132a54ecd43063df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8f6fa661c9b591931753bbf388495d7"><td class="memItemLeft" align="right" valign="top">vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#ae8f6fa661c9b591931753bbf388495d7">getPosition</a> () const</td></tr>
@@ -223,9 +225,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:afc56f6b1c1fdc2f457a32f689d1db632"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f7e9c7a827f2354b002343faa821640"><td class="memItemLeft" align="right" valign="top">vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#a4f7e9c7a827f2354b002343faa821640">getDownVector</a> () const</td></tr>
 <tr class="separator:a4f7e9c7a827f2354b002343faa821640"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6698184a18112ea28fb46a9f8ec45ad0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a6698184a18112ea28fb46a9f8ec45ad0"><td class="memTemplItemLeft" align="right" valign="top">shared_ptr&lt; <a class="el" href="classz0_1_1Tween.html">Tween</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#a6698184a18112ea28fb46a9f8ec45ad0">createPropertyTween</a> (<a class="el" href="classz0_1_1PropertyTween.html">PropertyTween</a>&lt; T &gt;::Setter set, T initial, T final, float duration)</td></tr>
-<tr class="separator:a6698184a18112ea28fb46a9f8ec45ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81b779df982deb40d79ae427b75d3c3c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a81b779df982deb40d79ae427b75d3c3c"><td class="memTemplItemLeft" align="right" valign="top">shared_ptr&lt; <a class="el" href="classz0_1_1Tween.html">Tween</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#a81b779df982deb40d79ae427b75d3c3c">createPropertyTween</a> (<a class="el" href="classz0_1_1PropertyTween.html">PropertyTween</a>&lt; T &gt;::Setter set, T initial, T final, float duration, const <a class="el" href="namespacez0.html#af626ef8b927e0650161dd4022e522c33">TransitionType</a> ttype=TransitionType::LINEAR, const Tween::Callback &amp;callback=nullptr)</td></tr>
+<tr class="separator:a81b779df982deb40d79ae427b75d3c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b21781b65398d0fed538d26e2784088"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#a8b21781b65398d0fed538d26e2784088">killTween</a> (const shared_ptr&lt; <a class="el" href="classz0_1_1Tween.html">Tween</a> &gt; &amp;tween)</td></tr>
 <tr class="separator:a8b21781b65398d0fed538d26e2784088"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfa8114428e4ac90b10ae5c119dbc14f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#abfa8114428e4ac90b10ae5c119dbc14f">setProperty</a> (const string &amp;property, const string &amp;value)</td></tr>
@@ -254,6 +256,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4170481c0798c899b545b15baccd08e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e8968971720e140c7316aa352d075d2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#a1e8968971720e140c7316aa352d075d2">isInsideTree</a> () const</td></tr>
 <tr class="separator:a1e8968971720e140c7316aa352d075d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada3290c364bdf847b0d9e6e64e403f86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Node.html#ada3290c364bdf847b0d9e6e64e403f86">setCastShadows</a> (bool castShadows)</td></tr>
+<tr class="separator:ada3290c364bdf847b0d9e6e64e403f86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classz0_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classz0_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classz0_1_1Object.html">Object</a></td></tr>
 <tr class="memitem:a579b003a1ba1245a7df4211306856aee inherit pub_methods_classz0_1_1Object"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1Object.html#a579b003a1ba1245a7df4211306856aee">connect</a> (const Signal::signal &amp;name, const <a class="el" href="classz0_1_1Signal.html#a220824176016286d99374f7f99187a18">Signal::Handler</a> &amp;handler)</td></tr>
 <tr class="separator:a579b003a1ba1245a7df4211306856aee inherit pub_methods_classz0_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -376,7 +380,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6698184a18112ea28fb46a9f8ec45ad0"></a>
+<a class="anchor" id="a81b779df982deb40d79ae427b75d3c3c"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -405,7 +409,19 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>duration</em>&#160;</td>
+          <td class="paramname"><em>duration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespacez0.html#af626ef8b927e0650161dd4022e522c33">TransitionType</a>&#160;</td>
+          <td class="paramname"><em>ttype</em> = <code>TransitionType::LINEAR</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Tween::Callback &amp;&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -415,7 +431,7 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1621,6 +1637,23 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ada3290c364bdf847b0d9e6e64e403f86"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setCastShadows </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>castShadows</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Recursively sets the cast_shadows property </p>
+
+</div>
+</div>
 <a class="anchor" id="af17621c2c136d4a27d15b0fe6b4d09b1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1754,7 +1787,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>Sets a property by is name and value. Currently, not all properties in all nodes classes are supported. </p>
 
-<p>Reimplemented in <a class="el" href="classz0_1_1MeshInstance.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::MeshInstance::setProperty()</a>, <a class="el" href="classz0_1_1SpotLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::SpotLight::setProperty()</a>, <a class="el" href="classz0_1_1CollisionObject.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::CollisionObject::setProperty()</a>, <a class="el" href="classz0_1_1PhysicsBody.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::PhysicsBody::setProperty()</a>, <a class="el" href="classz0_1_1Light.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Light::setProperty()</a>, <a class="el" href="classz0_1_1Skybox.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Skybox::setProperty()</a>, <a class="el" href="classz0_1_1OmniLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::OmniLight::setProperty()</a>, <a class="el" href="classz0_1_1Environment.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Environment::setProperty()</a>, <a class="el" href="classz0_1_1DirectionalLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::DirectionalLight::setProperty()</a>, <a class="el" href="classz0_1_1CollisionArea.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::CollisionArea::setProperty()</a>, <a class="el" href="classz0_1_1RigidBody.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::RigidBody::setProperty()</a></p>
+<p>Reimplemented in <a class="el" href="classz0_1_1SpotLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::SpotLight::setProperty()</a>, <a class="el" href="classz0_1_1CollisionObject.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::CollisionObject::setProperty()</a>, <a class="el" href="classz0_1_1PhysicsBody.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::PhysicsBody::setProperty()</a>, <a class="el" href="classz0_1_1Light.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Light::setProperty()</a>, <a class="el" href="classz0_1_1Skybox.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Skybox::setProperty()</a>, <a class="el" href="classz0_1_1OmniLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::OmniLight::setProperty()</a>, <a class="el" href="classz0_1_1Environment.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::Environment::setProperty()</a>, <a class="el" href="classz0_1_1DirectionalLight.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::DirectionalLight::setProperty()</a>, <a class="el" href="classz0_1_1CollisionArea.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::CollisionArea::setProperty()</a>, <a class="el" href="classz0_1_1RigidBody.html#ac4a1d2e49be60bd4e614d05e4db933b1">z0::RigidBody::setProperty()</a></p>
 
 </div>
 </div>
@@ -1939,6 +1972,31 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afc8204413a4dfb521f4378c6683a4110"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vec3 toLocal </td>
+          <td>(</td>
+          <td class="paramtype">vec3&#160;</td>
+          <td class="paramname"><em>global</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Transforms a world space vector to this node's local space. </p>
+
+</div>
+</div>
 <a class="anchor" id="acc18036adaea83856c3e6069e90a3f97"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1988,7 +2046,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacez0.html">z0</a></li><li class="navelem"><a class="el" href="classz0_1_1Node.html">Node</a></li>
-    <li class="footer">Generated on sam. févr. 1 2025 11:45:41 for ZeroZero &nbsp; by
+    <li class="footer">Generated on lun. févr. 24 2025 09:06:59 for ZeroZero &nbsp; by
     <a href="https://www.copperspice.com/documentation-doxypress.html">
     <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.7.0 </li>
   </ul>

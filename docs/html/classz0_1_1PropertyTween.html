@@ -99,10 +99,10 @@ Public Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1020c4963d8b83c5c8ab0b625647c252"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1PropertyTween.html#a1020c4963d8b83c5c8ab0b625647c252">PropertyTween</a> (<a class="el" href="classz0_1_1Object.html">Object</a> *obj, const Setter set, T initial, T final, const float duration, const <a class="el" href="namespacez0.html#af626ef8b927e0650161dd4022e522c33">TransitionType</a> ttype=TransitionType::LINEAR)</td></tr>
-<tr class="separator:a1020c4963d8b83c5c8ab0b625647c252"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acbab120410cfc7502136eeefa7b21724"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1PropertyTween.html#acbab120410cfc7502136eeefa7b21724">PropertyTween</a> (const shared_ptr&lt; <a class="el" href="classz0_1_1Object.html">Object</a> &gt; &amp;obj, const Setter set, T initial, T final, const float duration, const <a class="el" href="namespacez0.html#af626ef8b927e0650161dd4022e522c33">TransitionType</a> ttype=TransitionType::LINEAR)</td></tr>
-<tr class="separator:acbab120410cfc7502136eeefa7b21724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35479737bff49e49e85170baaf929649"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1PropertyTween.html#a35479737bff49e49e85170baaf929649">PropertyTween</a> (<a class="el" href="classz0_1_1Object.html">Object</a> *obj, const Setter set, T initial, T final, const float duration, const <a class="el" href="namespacez0.html#af626ef8b927e0650161dd4022e522c33">TransitionType</a> ttype=TransitionType::LINEAR, const Callback &amp;callback=nullptr)</td></tr>
+<tr class="separator:a35479737bff49e49e85170baaf929649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50ca1a0fc268293840963de2179f2070"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1PropertyTween.html#a50ca1a0fc268293840963de2179f2070">PropertyTween</a> (const shared_ptr&lt; <a class="el" href="classz0_1_1Object.html">Object</a> &gt; &amp;obj, const Setter set, T initial, T final, const float duration, const <a class="el" href="namespacez0.html#af626ef8b927e0650161dd4022e522c33">TransitionType</a> ttype=TransitionType::LINEAR, const Callback &amp;callback=nullptr)</td></tr>
+<tr class="separator:a50ca1a0fc268293840963de2179f2070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72f10c1042b068667afcb85ff24c014a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classz0_1_1PropertyTween.html#a72f10c1042b068667afcb85ff24c014a">update</a> (const float deltaTime) override</td></tr>
 <tr class="separator:a72f10c1042b068667afcb85ff24c014a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classz0_1_1Object"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classz0_1_1Object')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classz0_1_1Object.html">Object</a></td></tr>
@@ -130,7 +130,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a1020c4963d8b83c5c8ab0b625647c252"></a>
+<a class="anchor" id="a35479737bff49e49e85170baaf929649"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -171,7 +171,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespacez0.html#af626ef8b927e0650161dd4022e522c33">TransitionType</a>&#160;</td>
-          <td class="paramname"><em>ttype</em> = <code>TransitionType::LINEAR</code>&#160;</td>
+          <td class="paramname"><em>ttype</em> = <code>TransitionType::LINEAR</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Callback &amp;&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -193,13 +199,14 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">final</td><td>Final value </td></tr>
     <tr><td class="paramname">duration</td><td><a class="el" href="classz0_1_1Animation.html">Animation</a> duration in seconds </td></tr>
     <tr><td class="paramname">ttype</td><td>Transition type </td></tr>
+    <tr><td class="paramname">callback</td><td>Callback called at the end of the animation </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a class="anchor" id="acbab120410cfc7502136eeefa7b21724"></a>
+<a class="anchor" id="a50ca1a0fc268293840963de2179f2070"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -240,7 +247,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="namespacez0.html#af626ef8b927e0650161dd4022e522c33">TransitionType</a>&#160;</td>
-          <td class="paramname"><em>ttype</em> = <code>TransitionType::LINEAR</code>&#160;</td>
+          <td class="paramname"><em>ttype</em> = <code>TransitionType::LINEAR</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const Callback &amp;&#160;</td>
+          <td class="paramname"><em>callback</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -262,6 +275,7 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">final</td><td>Final value </td></tr>
     <tr><td class="paramname">duration</td><td><a class="el" href="classz0_1_1Animation.html">Animation</a> duration in seconds </td></tr>
     <tr><td class="paramname">ttype</td><td>Transition type </td></tr>
+    <tr><td class="paramname">callback</td><td>Callback called at the end of the animation </td></tr>
   </table>
   </dd>
 </dl>
@@ -290,7 +304,7 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Interpolate the property. If the <a class="el" href="classz0_1_1Tween.html">Tween</a> have been created manually you need to call <a class="el" href="classz0_1_1PropertyTween.html#a72f10c1042b068667afcb85ff24c014a">update()</a> in a <a class="el" href="classz0_1_1Node.html#a61aa85e3def5dba892d133a111cc4581">Node::onPhysicsProcess()</a> function. <em>Do not call it</em> if the <a class="el" href="classz0_1_1Tween.html">Tween</a> have been created with <a class="el" href="classz0_1_1Node.html#a6698184a18112ea28fb46a9f8ec45ad0">Node::createPropertyTween()</a>. </p><dl class="section return"><dt>Returns</dt><dd><code>false</code> if the tween is running </dd></dl>
+<p>Interpolate the property. If the <a class="el" href="classz0_1_1Tween.html">Tween</a> have been created manually you need to call <a class="el" href="classz0_1_1PropertyTween.html#a72f10c1042b068667afcb85ff24c014a">update()</a> in a <a class="el" href="classz0_1_1Node.html#a61aa85e3def5dba892d133a111cc4581">Node::onPhysicsProcess()</a> function. <em>Do not call it</em> if the <a class="el" href="classz0_1_1Tween.html">Tween</a> have been created with <a class="el" href="classz0_1_1Node.html#a81b779df982deb40d79ae427b75d3c3c">Node::createPropertyTween()</a>. </p><dl class="section return"><dt>Returns</dt><dd><code>false</code> if the tween is running </dd></dl>
 
 <p>Implements <a class="el" href="classz0_1_1Tween.html#a39d93278ffa437234fe6ded443901db9">z0::Tween::update()</a></p>
 
@@ -302,7 +316,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacez0.html">z0</a></li><li class="navelem"><a class="el" href="classz0_1_1PropertyTween.html">PropertyTween</a></li>
-    <li class="footer">Generated on sam. févr. 1 2025 11:45:41 for ZeroZero &nbsp; by
+    <li class="footer">Generated on lun. févr. 24 2025 09:06:59 for ZeroZero &nbsp; by
     <a href="https://www.copperspice.com/documentation-doxypress.html">
     <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.7.0 </li>
   </ul>
