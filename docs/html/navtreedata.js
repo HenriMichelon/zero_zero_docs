@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "ZeroZero", "index.html", [
+  [ "ZeroZero Game Engine", "index.html", [
     [ "User documentation", "index.html", null ],
     [ "Building & using ZeroZero", "md_000_build.html", null ],
     [ "Coordinate system", "md_001_coordinate_system.html", null ],
@@ -80,8 +80,7 @@ var NAVTREE =
             [ "Resource", "classz0_1_1ui_1_1Resource.html", null ],
             [ "Style", "classz0_1_1ui_1_1Style.html", null ],
             [ "Text", "classz0_1_1ui_1_1Text.html", [
-              [ "getSize", "classz0_1_1ui_1_1Text.html#a09f39b2634734973fd109a741ec821ff", null ],
-              [ "setSize", "classz0_1_1ui_1_1Text.html#a21a2ae83f6d6eedef1c094a0bc53db53", null ]
+              [ "getSize", "classz0_1_1ui_1_1Text.html#a09f39b2634734973fd109a741ec821ff", null ]
             ] ],
             [ "ToggleButton", "classz0_1_1ui_1_1ToggleButton.html", null ],
             [ "Widget", "classz0_1_1ui_1_1Widget.html", [
@@ -122,7 +121,7 @@ var NAVTREE =
                 [ "IMAGE", "classz0_1_1ui_1_1Widget.html#a1d1cfd8ffb84e947f82999c682b666a7a3501d25cdde2b141c20edb67965fb692", null ]
               ] ],
               [ "Widget", "classz0_1_1ui_1_1Widget.html#a5ed2b288d888d67fc1dfe02f67211412", null ],
-              [ "add", "classz0_1_1ui_1_1Widget.html#a405b83b3ec8cc4f6ab8f74630648a9a8", null ],
+              [ "add", "classz0_1_1ui_1_1Widget.html#aecbd8093f88ddce8d9197396da1863e2", null ],
               [ "enable", "classz0_1_1ui_1_1Widget.html#a60b5bc48cef0147ac07d66dff404e32f", null ],
               [ "getAlignment", "classz0_1_1ui_1_1Widget.html#ab48a26814c052dbce1a585359d326e2a", null ],
               [ "getFont", "classz0_1_1ui_1_1Widget.html#a0a454a703a010af4deca862b713ecc62", null ],
@@ -159,7 +158,7 @@ var NAVTREE =
             [ "Window", "classz0_1_1ui_1_1Window.html", [
               [ "ResizeableBorder", "classz0_1_1ui_1_1Window.html#a13c7760cc37358e9de809fd911d9a08e", null ],
               [ "Window", "classz0_1_1ui_1_1Window.html#a5f581a619ec1adbcee7d16e3c9a40559", null ],
-              [ "add", "classz0_1_1ui_1_1Window.html#ad6acb70ef3b903c05c467dda6d27bf6b", null ],
+              [ "add", "classz0_1_1ui_1_1Window.html#a5b341ad3536bfb45138f37ae8cd3306b", null ],
               [ "getDefaultFont", "classz0_1_1ui_1_1Window.html#a8eb3199e8d13defc721b22ac72cf34f5", null ],
               [ "getHeight", "classz0_1_1ui_1_1Window.html#ae07ffc83c6e2586b09157cacd623819b", null ],
               [ "getMaximumHeight", "classz0_1_1ui_1_1Window.html#a57440f6c10a5d6f51fc2c3283732f4bb", null ],
@@ -217,6 +216,7 @@ var NAVTREE =
             [ "AABBShape", "classz0_1_1AABBShape.html#af8a6fa116fffe4fbd6a0a2fcdfbf0474", null ]
           ] ],
           [ "Animation", "classz0_1_1Animation.html", [
+            [ "Track", "structz0_1_1Animation_1_1Track.html", null ],
             [ "TrackKeyValue", "structz0_1_1Animation_1_1TrackKeyValue.html", [
               [ "ended", "structz0_1_1Animation_1_1TrackKeyValue.html#af6a388286c832ca15a77c41a58667690", null ],
               [ "frameTime", "structz0_1_1Animation_1_1TrackKeyValue.html#a7afdb1c39c0379a3fae32b006dd87f5d", null ],
@@ -226,46 +226,48 @@ var NAVTREE =
             [ "Animation", "classz0_1_1Animation.html#a7f7d06b26c0cb86b0b8b194c1d51e6f0", null ],
             [ "Animation", "classz0_1_1Animation.html#ad19a8596ff1b300a36566201a91710a2", null ],
             [ "getInterpolatedValue", "classz0_1_1Animation.html#abbef2e3e1b1b90089cf856d323cdee41", null ],
-            [ "getLoopMode", "classz0_1_1Animation.html#aa180df92a09da5c9c06871170f50b241", null ],
-            [ "getTrack", "classz0_1_1Animation.html#ae079fe716664a819bc9991c503b646f7", null ],
-            [ "getTracksCount", "classz0_1_1Animation.html#aa6f1fab1548617628ed453f6143332bd", null ],
+            [ "getLoopMode", "classz0_1_1Animation.html#a82d18f34154ef9098446817bdba0921a", null ],
+            [ "getTrack", "classz0_1_1Animation.html#ac672f7be2fb6df203d993198f87a4032", null ],
+            [ "getTracksCount", "classz0_1_1Animation.html#a080be2e9a5a93f827f957ab4ad47415e", null ],
             [ "setLoopMode", "classz0_1_1Animation.html#a72bd4f0a94328cd3bb49518ee83343d7", null ]
           ] ],
           [ "AnimationLibrary", "classz0_1_1AnimationLibrary.html", [
             [ "AnimationLibrary", "classz0_1_1AnimationLibrary.html#acbc7c3354b03459ce4ac9497262f6bd6", null ],
             [ "add", "classz0_1_1AnimationLibrary.html#ad6c665527df03f9d759fa4ba4b6dc718", null ],
-            [ "get", "classz0_1_1AnimationLibrary.html#ad8298c9f4104cc5a045cd26557508e1f", null ],
-            [ "getDefault", "classz0_1_1AnimationLibrary.html#ad95c474fc201340135153d42445abefc", null ],
-            [ "has", "classz0_1_1AnimationLibrary.html#a328452dfd9a67834a7230692d38c1be9", null ]
+            [ "get", "classz0_1_1AnimationLibrary.html#ae44a9ba3c41b7bbab52bca2a38c54dc4", null ],
+            [ "getDefault", "classz0_1_1AnimationLibrary.html#ae7b368b1539f5364a75dd3135a5c067b", null ],
+            [ "has", "classz0_1_1AnimationLibrary.html#ae98368b9229654779e709c63c10f2cce", null ]
           ] ],
           [ "AnimationPlayer", "classz0_1_1AnimationPlayer.html", [
             [ "Playback", "structz0_1_1AnimationPlayer_1_1Playback.html", [
               [ "animationName", "structz0_1_1AnimationPlayer_1_1Playback.html#af7a9b3c6e9cc71dc427bf6c67ca2589b", null ]
             ] ],
             [ "AnimationPlayer", "classz0_1_1AnimationPlayer.html#a3fdfbfcf5a501f2ab9fcc352acd099ed", null ],
-            [ "add", "classz0_1_1AnimationPlayer.html#afd5dc7dd5c9864afd78e0497e08cbe34", null ],
+            [ "add", "classz0_1_1AnimationPlayer.html#aad1510fac5e28495830678bfafc626d7", null ],
             [ "getAnimation", "classz0_1_1AnimationPlayer.html#a78b5ecb83f96de2651c001e991a35509", null ],
-            [ "getCurrentAnimation", "classz0_1_1AnimationPlayer.html#afdb0b8495ad9d994012ca8bc23d970da", null ],
-            [ "getCurrentLibrary", "classz0_1_1AnimationPlayer.html#a4ae141e016551057331eb62152122cdf", null ],
-            [ "getLibrary", "classz0_1_1AnimationPlayer.html#a9f47d6e11d1035d53f0708a7fdd314ef", null ],
-            [ "isPlaying", "classz0_1_1AnimationPlayer.html#a389ad71786b00ae81f69060f153509d2", null ],
+            [ "getCurrentAnimation", "classz0_1_1AnimationPlayer.html#aa787639a5f227e38473e6c39e4a2a273", null ],
+            [ "getCurrentLibrary", "classz0_1_1AnimationPlayer.html#a1ccd275de8df52290a3d2fb996ab093f", null ],
+            [ "getLibrary", "classz0_1_1AnimationPlayer.html#a83e59812f3cdbbf3d30768f26f45c517", null ],
+            [ "isPlaying", "classz0_1_1AnimationPlayer.html#acd945c68ac04cc2205bc0c4369138828", null ],
             [ "play", "classz0_1_1AnimationPlayer.html#ac66e5ec251af0e902251a026a993d031", null ],
             [ "playBackwards", "classz0_1_1AnimationPlayer.html#a465dd99ad0cd6ac5bca71275cdbe5e69", null ],
-            [ "setAutoStart", "classz0_1_1AnimationPlayer.html#afe2d41f9e983d13be92f912d157bf41c", null ],
+            [ "setAutoStart", "classz0_1_1AnimationPlayer.html#ae2fb3d34dd9f4553d02decae0375e9dc", null ],
             [ "setCurrentAnimation", "classz0_1_1AnimationPlayer.html#a9f0f18f90ac6f98fb2e334ef4691135f", null ],
             [ "setCurrentLibrary", "classz0_1_1AnimationPlayer.html#a31b81456427fdfaf180ba21bc375f709", null ],
+            [ "setTarget", "classz0_1_1AnimationPlayer.html#ae81008a9e2f81adbabdeaac8ea35bfc2", null ],
+            [ "setTarget", "classz0_1_1AnimationPlayer.html#a7cd7ed6d7e56382bcd6b912535d6c764", null ],
             [ "stop", "classz0_1_1AnimationPlayer.html#a18f7e87c06697c1b210adc78b4c09300", null ]
           ] ],
           [ "Application", "classz0_1_1Application.html", [
             [ "activateCamera", "classz0_1_1Application.html#aab7a546ae6ac042c410ff02f04a7e569", null ],
             [ "add", "classz0_1_1Application.html#a804e5cf66afa1898166ce47b4a01c5d7", null ],
-            [ "callAsync", "classz0_1_1Application.html#a6e57bd3b94c10cc5d80a3ce21bb5b993", null ],
-            [ "callDeferred", "classz0_1_1Application.html#a56066d1feed505ba3f5601e3db069419", null ],
+            [ "callAsync", "classz0_1_1Application.html#a6e53ee16fc796138b754b3400262a61a", null ],
+            [ "callDeferred", "classz0_1_1Application.html#a69e1697146fd375c01205faf07ffa267", null ],
             [ "getAdapterDescription", "classz0_1_1Application.html#a355852cda692604c47c73e6b32fdf23c", null ],
             [ "getAspectRatio", "classz0_1_1Application.html#a5cb8d806ca25bf7a33d8b9e655a8e3c7", null ],
             [ "getConfig", "classz0_1_1Application.html#ab56f47acb4d61af00e861dc357a4dd1b", null ],
             [ "getDedicatedVideoMemory", "classz0_1_1Application.html#a2d23ee7279732621024f5c39f0c28d26", null ],
-            [ "getDisplayDebug", "classz0_1_1Application.html#a6ec4c8a43a3c1ff95b42417ac230b14a", null ],
+            [ "getDisplayDebug", "classz0_1_1Application.html#a47c650aa71a4a7015f9ea70579ee6b97", null ],
             [ "getFPS", "classz0_1_1Application.html#a7ab50866951aa9591052e13d4bc3d894", null ],
             [ "getGravity", "classz0_1_1Application.html#a65a449ef4b95351bb4d7bdf34edeb04b", null ],
             [ "getOutlineMaterials", "classz0_1_1Application.html#acca1f71b2a47b4be069caf3d487b0c18", null ],
@@ -313,12 +315,12 @@ var NAVTREE =
           ] ],
           [ "Camera", "classz0_1_1Camera.html", [
             [ "Camera", "classz0_1_1Camera.html#a1293738fe3b717e80b28e5e48ad955b9", null ],
-            [ "getFarDistance", "classz0_1_1Camera.html#a4117187c285895c08225e3b3e4f9ffca", null ],
-            [ "getFov", "classz0_1_1Camera.html#a1a71158f75bae989558502b99e2ecb03", null ],
-            [ "getNearDistance", "classz0_1_1Camera.html#a8edfea354903094e7ba91f6541b4026d", null ],
-            [ "getProjection", "classz0_1_1Camera.html#ad12af21f9af3131567975491c49c5432", null ],
-            [ "getView", "classz0_1_1Camera.html#a2e9bb946596e3e12f34b42d34597f6c0", null ],
-            [ "isActive", "classz0_1_1Camera.html#a354c7d206ec624b9bdbb81f3b788f826", null ],
+            [ "getFarDistance", "classz0_1_1Camera.html#a45b9205fc5a020338f471cdd8796985f", null ],
+            [ "getFov", "classz0_1_1Camera.html#abc2ca861ac40c248c9755b318addcef8", null ],
+            [ "getNearDistance", "classz0_1_1Camera.html#aefab5c25e455e8ce6e9f993762554fcd", null ],
+            [ "getProjection", "classz0_1_1Camera.html#a414a474c3692cc4d589beaba87b010b9", null ],
+            [ "getView", "classz0_1_1Camera.html#a8dc3f23e552a99ba1d07b8891150aa81", null ],
+            [ "isActive", "classz0_1_1Camera.html#a11d560fdb13971346ba9e817a358278f", null ],
             [ "setFarDistance", "classz0_1_1Camera.html#a405541686ec6bf7db8eb343987589bd8", null ],
             [ "setFov", "classz0_1_1Camera.html#a14a5d6b533944555da2a29a9acc249d6", null ],
             [ "setNearDistance", "classz0_1_1Camera.html#a456c69775463bbc3aff891e96bff9725", null ],
@@ -331,9 +333,9 @@ var NAVTREE =
             [ "getCollisions", "classz0_1_1Character.html#a83a2b9e56e39dfe1a69b4f8b39206e2f", null ],
             [ "getGround", "classz0_1_1Character.html#a0702ddadb95d7a3b0e1a8512fc423cab", null ],
             [ "getGroundVelocity", "classz0_1_1Character.html#ab6c66fbce93b9a069fad89afa1a77b6a", null ],
-            [ "getUpVector", "classz0_1_1Character.html#acb50a98d59d128b9d304816483bdac1e", null ],
-            [ "isGround", "classz0_1_1Character.html#a33db1c28a8a73d4de5fe2b6c408232cb", null ],
-            [ "isOnGround", "classz0_1_1Character.html#a47ee01ff21778c47dbfa3b2900c43e4e", null ],
+            [ "getUpVector", "classz0_1_1Character.html#a4907bf2dba5a5ec8028de030f6a5ddc9", null ],
+            [ "isGround", "classz0_1_1Character.html#a6e9c853bfbdc346726607500687cdb0b", null ],
+            [ "isOnGround", "classz0_1_1Character.html#a90b678dabbb8045e47b1a6fce482555b", null ],
             [ "setMaxSlopeAngle", "classz0_1_1Character.html#a2c11980432362ac845edfb4ff3db81f5", null ],
             [ "setShape", "classz0_1_1Character.html#ad55623ee56a80621f83a31259b6774c2", null ],
             [ "setUpVector", "classz0_1_1Character.html#ae67b15bfc9ce19af63ab97b369065de5", null ],
@@ -341,8 +343,7 @@ var NAVTREE =
           ] ],
           [ "CollisionArea", "classz0_1_1CollisionArea.html", [
             [ "CollisionArea", "classz0_1_1CollisionArea.html#a9073fc2bfaeb2b5a4f660081297eae55", null ],
-            [ "CollisionArea", "classz0_1_1CollisionArea.html#a5f9094ea0f9a4254983a4630bf1b9f26", null ],
-            [ "setProperty", "classz0_1_1CollisionArea.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ]
+            [ "CollisionArea", "classz0_1_1CollisionArea.html#a5f9094ea0f9a4254983a4630bf1b9f26", null ]
           ] ],
           [ "CollisionObject", "classz0_1_1CollisionObject.html", [
             [ "Collision", "structz0_1_1CollisionObject_1_1Collision.html", [
@@ -350,10 +351,8 @@ var NAVTREE =
               [ "object", "structz0_1_1CollisionObject_1_1Collision.html#afe7baac8f14963239f3d408ea001cf7c", null ],
               [ "position", "structz0_1_1CollisionObject_1_1Collision.html#a2807b9fb4b79e01dfde022b613d2575f", null ]
             ] ],
-            [ "getCollisionLayer", "classz0_1_1CollisionObject.html#a45c512296b36eedaf874f9c824bbf29f", null ],
+            [ "getCollisionLayer", "classz0_1_1CollisionObject.html#a57cef2882ad814365de92432ad424729", null ],
             [ "setCollisionLayer", "classz0_1_1CollisionObject.html#a71a5d10522d6fef70772d75c709850a3", null ],
-            [ "setProperty", "classz0_1_1CollisionObject.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ],
-            [ "setVisible", "classz0_1_1CollisionObject.html#a865b6f3495585c790494181f9ab4c9ee", null ],
             [ "wereInContact", "classz0_1_1CollisionObject.html#ae7d020cf7bf2b1515fe43b8966f88fad", null ]
           ] ],
           [ "ConvexHullShape", "classz0_1_1ConvexHullShape.html", [
@@ -363,8 +362,8 @@ var NAVTREE =
             [ "duplicate", "classz0_1_1ConvexHullShape.html#a5f60473e1b88c38529d9475697e60873", null ]
           ] ],
           [ "Cubemap", "classz0_1_1Cubemap.html", [
-            [ "getHeight", "classz0_1_1Cubemap.html#a41bfc989babe0999be4037c5b68119b5", null ],
-            [ "getWidth", "classz0_1_1Cubemap.html#aca1b996bfd42e4d13365709e3fcab072", null ]
+            [ "getHeight", "classz0_1_1Cubemap.html#afb671e8ff01febf709d9074687f2bfb4", null ],
+            [ "getWidth", "classz0_1_1Cubemap.html#a0af04d5df99f552fc7a05a4bf7f5c4e9", null ]
           ] ],
           [ "CylinderShape", "classz0_1_1CylinderShape.html", [
             [ "CylinderShape", "classz0_1_1CylinderShape.html#a25681b45e0e4149421ea8de9ade2040f", null ]
@@ -392,21 +391,21 @@ var NAVTREE =
           ] ],
           [ "DirectionalLight", "classz0_1_1DirectionalLight.html", [
             [ "DirectionalLight", "classz0_1_1DirectionalLight.html#ae5b18c734254613eb69d40b889c3589c", null ],
-            [ "getShadowMapCascadesCount", "classz0_1_1DirectionalLight.html#ae9ff8dc446ece256b8ee2e0b9983aa87", null ],
+            [ "getShadowMapCascadesCount", "classz0_1_1DirectionalLight.html#a6edf671278efeefbe5ddb5fa8fbc16c2", null ],
             [ "setProperty", "classz0_1_1DirectionalLight.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ],
             [ "setShadowMapCascadesCount", "classz0_1_1DirectionalLight.html#a8154847979fce14de7459dd5f9271a41", null ]
           ] ],
           [ "Environment", "classz0_1_1Environment.html", [
             [ "Environment", "classz0_1_1Environment.html#a3aa0e6733a051176c24440395f3efa22", null ],
-            [ "getAmbientColorAndIntensity", "classz0_1_1Environment.html#a157bd445d016e4c486b5461d826747ad", null ],
-            [ "setAmbientColorAndIntensity", "classz0_1_1Environment.html#a3c1c2a4757c8126ade9dd5e004430687", null ],
+            [ "getAmbientColorAndIntensity", "classz0_1_1Environment.html#ae36fa0adef2dda5fdb83c0d7e449cf28", null ],
+            [ "setAmbientColorAndIntensity", "classz0_1_1Environment.html#aebd47f875ef5901a657994e9d18f1ca2", null ],
             [ "setProperty", "classz0_1_1Environment.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ]
           ] ],
           [ "EnvironmentCubemap", "classz0_1_1EnvironmentCubemap.html", null ],
           [ "Font", "classz0_1_1Font.html", [
             [ "Font", "classz0_1_1Font.html#ab11928aa60aaa53bdeae645900bbf211", null ],
-            [ "getFontName", "classz0_1_1Font.html#a453a7f4b401eb3287e789950db26b662", null ],
-            [ "getFontSize", "classz0_1_1Font.html#ac25b235d4b218e80d5e0262b6ecb3db8", null ],
+            [ "getFontName", "classz0_1_1Font.html#a292c9dcb53d7c4f9c025a768cc01b335", null ],
+            [ "getFontSize", "classz0_1_1Font.html#a8d5f809b54365a477ae3551913eca01e", null ],
             [ "getSize", "classz0_1_1Font.html#a25df9f3d1dffcbc9f1ae20bf3e220369", null ],
             [ "renderToBitmap", "classz0_1_1Font.html#af1484daf452ab2001f209bba9e6d2620", null ]
           ] ],
@@ -427,15 +426,15 @@ var NAVTREE =
             [ "topFace", "structz0_1_1Frustum.html#a14fc5c987c39970efa74f7148ac30d08", null ]
           ] ],
           [ "Image", "classz0_1_1Image.html", [
-            [ "getHeight", "classz0_1_1Image.html#a41bfc989babe0999be4037c5b68119b5", null ],
-            [ "getSize", "classz0_1_1Image.html#a88514e2ab634cfe56f85d7cadfff12c2", null ],
-            [ "getWidth", "classz0_1_1Image.html#aca1b996bfd42e4d13365709e3fcab072", null ]
+            [ "getHeight", "classz0_1_1Image.html#afb671e8ff01febf709d9074687f2bfb4", null ],
+            [ "getSize", "classz0_1_1Image.html#a5c1d89d2d5cd83b98e9053def9afdc99", null ],
+            [ "getWidth", "classz0_1_1Image.html#a0af04d5df99f552fc7a05a4bf7f5c4e9", null ]
           ] ],
           [ "ImageTexture", "classz0_1_1ImageTexture.html", [
             [ "ImageTexture", "classz0_1_1ImageTexture.html#a8d7dd0cb6e87938e34092db6ac3b9f79", null ],
             [ "ImageTexture", "classz0_1_1ImageTexture.html#ac57bdc5728cb321e955139683bc29227", null ],
             [ "getHeight", "classz0_1_1ImageTexture.html#ab95345b894c982682ff7fe43ef1263e2", null ],
-            [ "getImage", "classz0_1_1ImageTexture.html#aeefbe369305f893271597a846c84154e", null ],
+            [ "getImage", "classz0_1_1ImageTexture.html#afd3e925106dc38152f347a933db382a4", null ],
             [ "getWidth", "classz0_1_1ImageTexture.html#a4a68d65537dacc7b3f3d9c6968219bb4", null ]
           ] ],
           [ "Input", "classz0_1_1Input.html", null ],
@@ -443,21 +442,21 @@ var NAVTREE =
             [ "getType", "classz0_1_1InputEvent.html#a1184cba09842cb1adfe07e2e64d71954", null ]
           ] ],
           [ "InputEventGamepadButton", "classz0_1_1InputEventGamepadButton.html", [
-            [ "getGamepadButton", "classz0_1_1InputEventGamepadButton.html#a4d0a979e59136b8a3cb39809e8974458", null ],
-            [ "isPressed", "classz0_1_1InputEventGamepadButton.html#a56b841b42db654e1d60230b2b22683cf", null ]
+            [ "getGamepadButton", "classz0_1_1InputEventGamepadButton.html#a15aa100297c4c2ff14d7722844e8f91e", null ],
+            [ "isPressed", "classz0_1_1InputEventGamepadButton.html#a4960ffaa9cfb13104574ee9e3a3b0b87", null ]
           ] ],
           [ "InputEventKey", "classz0_1_1InputEventKey.html", [
             [ "getKey", "classz0_1_1InputEventKey.html#a6099bd7b01d96be4c1c812d2cd3b4e54", null ],
-            [ "getModifiers", "classz0_1_1InputEventKey.html#ab8f99a1ccd9832faabeee792bc5702e2", null ],
-            [ "getRepeatCount", "classz0_1_1InputEventKey.html#a19fd8257dad198d816cdfdcc824652ff", null ],
-            [ "isPressed", "classz0_1_1InputEventKey.html#a56b841b42db654e1d60230b2b22683cf", null ]
+            [ "getModifiers", "classz0_1_1InputEventKey.html#a68363cb91ece67749f08cfb8f919c5c6", null ],
+            [ "getRepeatCount", "classz0_1_1InputEventKey.html#a01a16369954783d3c4ddc7c63e526c95", null ],
+            [ "isPressed", "classz0_1_1InputEventKey.html#a4960ffaa9cfb13104574ee9e3a3b0b87", null ]
           ] ],
           [ "InputEventMouse", "classz0_1_1InputEventMouse.html", [
-            [ "getButtonsState", "classz0_1_1InputEventMouse.html#af04122e397fe142bba08186058e079d0", null ],
-            [ "getModifiers", "classz0_1_1InputEventMouse.html#ab8f99a1ccd9832faabeee792bc5702e2", null ],
-            [ "getPosition", "classz0_1_1InputEventMouse.html#ab571f4fa20071a4daf7ee619d2c76202", null ],
-            [ "getX", "classz0_1_1InputEventMouse.html#a1da8aa3a43aa06db29c286dc0a87987a", null ],
-            [ "getY", "classz0_1_1InputEventMouse.html#a0a3f71b2c1cfb1387019fc4c32f9994c", null ]
+            [ "getButtonsState", "classz0_1_1InputEventMouse.html#a6444d1afd57d192f07d267f1b23460e8", null ],
+            [ "getModifiers", "classz0_1_1InputEventMouse.html#a68363cb91ece67749f08cfb8f919c5c6", null ],
+            [ "getPosition", "classz0_1_1InputEventMouse.html#aa3a6bb0d7df72bb15b80f366c0056b4c", null ],
+            [ "getX", "classz0_1_1InputEventMouse.html#a83c8a6ebdabb815650c5867e292a393a", null ],
+            [ "getY", "classz0_1_1InputEventMouse.html#ab33fc8d9d805b37ffb677a077524ca5c", null ]
           ] ],
           [ "InputEventMouseButton", "classz0_1_1InputEventMouseButton.html", [
             [ "getMouseButton", "classz0_1_1InputEventMouseButton.html#a145222425e097c42f7981526f9a726b5", null ],
@@ -473,9 +472,9 @@ var NAVTREE =
           ] ],
           [ "Light", "classz0_1_1Light.html", [
             [ "LightType", "classz0_1_1Light.html#adc3ec8293e6a97ebe43f0196b9a7f638", null ],
-            [ "getCastShadows", "classz0_1_1Light.html#a75ad1a3fd9270874a295659129eda737", null ],
-            [ "getColorAndIntensity", "classz0_1_1Light.html#aa3b6a5278f4917f1380c1c1139ab4afe", null ],
-            [ "getLightType", "classz0_1_1Light.html#acb7988eb4fa82c86659f0fa001ed87c5", null ],
+            [ "getCastShadows", "classz0_1_1Light.html#ae683c4ef648d13c8cb58eeeaf56e4a9e", null ],
+            [ "getColorAndIntensity", "classz0_1_1Light.html#a0d94d18db0bb58372dd06c1ddba2f50b", null ],
+            [ "getLightType", "classz0_1_1Light.html#a9e68459305d8049537a5f0d1dab1ffee", null ],
             [ "setCastShadows", "classz0_1_1Light.html#ada3290c364bdf847b0d9e6e64e403f86", null ],
             [ "setColorAndIntensity", "classz0_1_1Light.html#a94a71db9344680e0b513be3489cd5393", null ],
             [ "setProperty", "classz0_1_1Light.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ]
@@ -484,9 +483,9 @@ var NAVTREE =
           [ "Locale", "classz0_1_1Locale.html", null ],
           [ "Log", "structz0_1_1Log.html", null ],
           [ "Material", "classz0_1_1Material.html", [
-            [ "getAlphaScissor", "classz0_1_1Material.html#a7b1b66e41160586172a1998e84baa8be", null ],
-            [ "getCullMode", "classz0_1_1Material.html#a58a3ece90ef1bf69c081a151112b6c2a", null ],
-            [ "getTransparency", "classz0_1_1Material.html#a8aa156550d474248087644d6c5eeb74c", null ],
+            [ "getAlphaScissor", "classz0_1_1Material.html#a101cbc4be41c31682c353dc4de48cdd0", null ],
+            [ "getCullMode", "classz0_1_1Material.html#a11505ad1ae9d054f43744614a3117822", null ],
+            [ "getTransparency", "classz0_1_1Material.html#a146fae8d08b2316c19d49e71e9563d70", null ],
             [ "setAlphaScissor", "classz0_1_1Material.html#aae6f2265a91d4bb411349441f79bff79", null ],
             [ "setCullMode", "classz0_1_1Material.html#aab8eea493cd5cfc7505c7a0e04af4e44", null ],
             [ "setTransparency", "classz0_1_1Material.html#a30b3025e558a409d2f037b0e4eebd758", null ]
@@ -503,13 +502,13 @@ var NAVTREE =
           ] ],
           [ "MeshInstance", "classz0_1_1MeshInstance.html", [
             [ "MeshInstance", "classz0_1_1MeshInstance.html#a33658770850d6c6e8c5f1a9f598c3819", null ],
-            [ "getAABB", "classz0_1_1MeshInstance.html#a9f04019c0b014b7844075414b947a6e6", null ],
-            [ "getMesh", "classz0_1_1MeshInstance.html#af03b022244ebc5860ab41128aa341ff3", null ],
-            [ "getOutlineMaterial", "classz0_1_1MeshInstance.html#a155190ec9cea9ca8f1ef404b9d27ee70", null ],
-            [ "isOutlined", "classz0_1_1MeshInstance.html#a64feaeebe1e1f4ba35d230b9f60b1aeb", null ],
-            [ "isValid", "classz0_1_1MeshInstance.html#a5bc2a781be2586924afce4e4a4ea6697", null ],
-            [ "setOutlined", "classz0_1_1MeshInstance.html#a3a9efc00f38f5aa6009ce9caea593b12", null ],
-            [ "setOutlineMaterial", "classz0_1_1MeshInstance.html#af52739770e581b351a5e8164e6777480", null ]
+            [ "getAABB", "classz0_1_1MeshInstance.html#af50134818b8aab9aca5bff11d2085018", null ],
+            [ "getMesh", "classz0_1_1MeshInstance.html#a670213de2f9a1a50d5adbbeba188ab51", null ],
+            [ "getOutlineMaterial", "classz0_1_1MeshInstance.html#a40076ef32089c9260b4f1cdd470042f5", null ],
+            [ "isOutlined", "classz0_1_1MeshInstance.html#a92457fd7a1cc8f2ff4d70cfdaf01be7e", null ],
+            [ "isValid", "classz0_1_1MeshInstance.html#a51ae1124abee2005d309b87226bce099", null ],
+            [ "setOutlined", "classz0_1_1MeshInstance.html#acfce25dadc394276d977c784531d3ae7", null ],
+            [ "setOutlineMaterial", "classz0_1_1MeshInstance.html#a07eae4e5cf8edffd00f4ab24f0666eec", null ]
           ] ],
           [ "MeshShape", "classz0_1_1MeshShape.html", [
             [ "MeshShape", "classz0_1_1MeshShape.html#a3adafea16a1d87f9c4fa9e5cd901f2f7", null ],
@@ -522,7 +521,7 @@ var NAVTREE =
             [ "addChild", "classz0_1_1Node.html#a0752b021c3f8248bf477e7f6b0cb4e40", null ],
             [ "addToGroup", "classz0_1_1Node.html#a35ecc446103002806b9c2580dc377d20", null ],
             [ "createPropertyTween", "classz0_1_1Node.html#a81b779df982deb40d79ae427b75d3c3c", null ],
-            [ "duplicate", "classz0_1_1Node.html#a150c752722772ada683d9d98e8cd7d4f", null ],
+            [ "duplicate", "classz0_1_1Node.html#acfba118e6abce8aeae0cba5446bdd862", null ],
             [ "findAllChildren", "classz0_1_1Node.html#a7c07814e5bd4d24cf9fab3b5cbc77b76", null ],
             [ "findAllChildrenByGroup", "classz0_1_1Node.html#abcee80d0f58913aec28b072bee07b3e3", null ],
             [ "findFirstChild", "classz0_1_1Node.html#ad5c94eb4e7cd9430d8425449bd537f12", null ],
@@ -544,11 +543,14 @@ var NAVTREE =
             [ "getProcessMode", "classz0_1_1Node.html#a108eba1dbccbd4ecb5a2d310616bcc66", null ],
             [ "getRightVector", "classz0_1_1Node.html#a850d8c3ae0a8fee8b369009a66a8e3d1", null ],
             [ "getRotation", "classz0_1_1Node.html#acf59fbf2605d48ab018593418822a564", null ],
+            [ "getRotationGlobal", "classz0_1_1Node.html#a9db89b138cfe751b605e226f064f1757", null ],
             [ "getRotationQuaternion", "classz0_1_1Node.html#af307ee4a087fe088255a33300d5c2ccb", null ],
+            [ "getRotationQuaternionGlobal", "classz0_1_1Node.html#ab07f01d0097323f93c9a853f864c534e", null ],
             [ "getRotationX", "classz0_1_1Node.html#a0a795c100a9fb823fdfca80b33d73929", null ],
             [ "getRotationY", "classz0_1_1Node.html#a17fd057679dbb34530daa376abcf45e7", null ],
             [ "getRotationZ", "classz0_1_1Node.html#a2add690e2f19a3c247cc551d2e28556d", null ],
             [ "getScale", "classz0_1_1Node.html#a26fddd47ca962f874d10775a454f0286", null ],
+            [ "getScaleGlobal", "classz0_1_1Node.html#a3d5fff17f42f74e94c97b43a0e9f7727", null ],
             [ "getTransformGlobal", "classz0_1_1Node.html#a04c70372e62e075dac85ad9944683ab4", null ],
             [ "getTransformLocal", "classz0_1_1Node.html#a39c13ce547fc39faa6b507f9aded88da", null ],
             [ "getType", "classz0_1_1Node.html#a97c56d51eec84be3e856eb0ca6ebd3d4", null ],
@@ -559,6 +561,7 @@ var NAVTREE =
             [ "isProcessed", "classz0_1_1Node.html#a83943e04f0ee0a5a38208278b97fc780", null ],
             [ "isVisible", "classz0_1_1Node.html#a9d8a6cfb13917785c143e74d40e4e2be", null ],
             [ "killTween", "classz0_1_1Node.html#a8b21781b65398d0fed538d26e2784088", null ],
+            [ "makeFrom", "classz0_1_1Node.html#a52ca2218de83c1e78704dd591c2f7b0d", null ],
             [ "onEnterScene", "classz0_1_1Node.html#a185f888b7aabbe08c3c1c6a76669b75e", null ],
             [ "onExitScene", "classz0_1_1Node.html#ab26c148081cee0e39b4b61070c304a51", null ],
             [ "onInput", "classz0_1_1Node.html#ad5ef4d4f0e404eddbc46e41389042ef3", null ],
@@ -580,6 +583,7 @@ var NAVTREE =
             [ "setProperty", "classz0_1_1Node.html#abfa8114428e4ac90b10ae5c119dbc14f", null ],
             [ "setRotation", "classz0_1_1Node.html#ab5ae1fd6f2861ee69339c0c75a7dd50f", null ],
             [ "setRotation", "classz0_1_1Node.html#a22a20b50c7395bf3fa43256e586f769e", null ],
+            [ "setRotationGlobal", "classz0_1_1Node.html#ab237d8f630f6f1ae745de599df2a4266", null ],
             [ "setRotationX", "classz0_1_1Node.html#a7d4c4dacf0e1d8bb563230bc0bbece69", null ],
             [ "setRotationY", "classz0_1_1Node.html#ab7010e81bb2e089587baed2cfc011786", null ],
             [ "setRotationZ", "classz0_1_1Node.html#a504c4b0b83b9ee4bace4e66b10c1f315", null ],
@@ -600,10 +604,10 @@ var NAVTREE =
           [ "OmniLight", "classz0_1_1OmniLight.html", [
             [ "OmniLight", "classz0_1_1OmniLight.html#a49b86946a15cdc77e9568eeb15eb6e51", null ],
             [ "OmniLight", "classz0_1_1OmniLight.html#aad65dca97b1d6c95b7095bbe7819bfbc", null ],
-            [ "getNearClipDistance", "classz0_1_1OmniLight.html#a1ee7b7288671fca979ffc24e79d7b6bd", null ],
-            [ "getRange", "classz0_1_1OmniLight.html#a0c3ae52d66b00f45d81fe9de89b553e1", null ],
+            [ "getNearClipDistance", "classz0_1_1OmniLight.html#a7ad93b8d3d601819dfb0ad64df336454", null ],
+            [ "getRange", "classz0_1_1OmniLight.html#a737bf52443e4f322c28f336d95a3ee7d", null ],
             [ "setProperty", "classz0_1_1OmniLight.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ],
-            [ "setRange", "classz0_1_1OmniLight.html#ab34edfaf47041626d338cf623e84977d", null ]
+            [ "setRange", "classz0_1_1OmniLight.html#ae411e2363da542c176835b88a8c1594f", null ]
           ] ],
           [ "OutlineMaterials", "classz0_1_1OutlineMaterials.html", [
             [ "add", "classz0_1_1OutlineMaterials.html#a406af4a3380bac367f35efec0eb042b3", null ],
@@ -616,7 +620,6 @@ var NAVTREE =
             [ "setBounce", "classz0_1_1PhysicsBody.html#a83ef14354652d9e36ed1b73601dd7f7f", null ],
             [ "setGravityFactor", "classz0_1_1PhysicsBody.html#adb5a8ee1c52e4e9ccb33e0b4ce5b0597", null ],
             [ "setMass", "classz0_1_1PhysicsBody.html#af40a11006265ce9318a67703d93784c8", null ],
-            [ "setProperty", "classz0_1_1PhysicsBody.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ],
             [ "setShape", "classz0_1_1PhysicsBody.html#af50ab76341c58a919cb1662bc9f78be9", null ],
             [ "setVelocity", "classz0_1_1PhysicsBody.html#a8b0c163a84bbacd299a8be664f9220f8", null ]
           ] ],
@@ -629,32 +632,31 @@ var NAVTREE =
           [ "RayCast", "classz0_1_1RayCast.html", [
             [ "RayCast", "classz0_1_1RayCast.html#ac0d845f79b720b64cc543793168a717b", null ],
             [ "RayCast", "classz0_1_1RayCast.html#acfdaa8481b3ef9a9f0e0d3081a5a9e7d", null ],
-            [ "forceRaycastUpdate", "classz0_1_1RayCast.html#a2347aa61a67ea7fecdd148cbbec1fce5", null ],
-            [ "getCollider", "classz0_1_1RayCast.html#ab5b76e9bca8bd9aa5e551ffa9a1a32a5", null ],
-            [ "getCollisionPoint", "classz0_1_1RayCast.html#a2081661bfd54be41815f0be7df9dff35", null ],
-            [ "getTarget", "classz0_1_1RayCast.html#a16d85924550f0bd451799ecec7879a24", null ],
-            [ "isColliding", "classz0_1_1RayCast.html#af6948778027ccfe6ba910c7c35dc3be6", null ],
-            [ "setExcludeParent", "classz0_1_1RayCast.html#a40bd64727cd490f1fe3777c9458aaa09", null ],
-            [ "setTarget", "classz0_1_1RayCast.html#a817ea7aa8d50da37420ff85ac084783a", null ]
+            [ "forceRaycastUpdate", "classz0_1_1RayCast.html#a423cdf9a0465f9f103f63f3b7a5df5cf", null ],
+            [ "getCollider", "classz0_1_1RayCast.html#a477cd0a790864dcb7d93d71b7f1d3761", null ],
+            [ "getCollisionPoint", "classz0_1_1RayCast.html#a2aa6872f4cbc62b6f597b346e225ada2", null ],
+            [ "getTarget", "classz0_1_1RayCast.html#aaefda353b34bc629bade0fb5efca76d6", null ],
+            [ "isColliding", "classz0_1_1RayCast.html#a992ee0d48c9fc8888364cd810586c222", null ],
+            [ "setExcludeParent", "classz0_1_1RayCast.html#a2384a48077e74332d63cdb0afd36df16", null ],
+            [ "setTarget", "classz0_1_1RayCast.html#a90496b976e8fa4bbad5ea890e8da6c15", null ]
           ] ],
           [ "Resource", "classz0_1_1Resource.html", [
             [ "duplicate", "classz0_1_1Resource.html#ad94019738d2d8053a2c0bdd9b9ccf5a1", null ],
-            [ "getId", "classz0_1_1Resource.html#a95bc6369673e4f113ed3fc9d34d00f22", null ],
-            [ "getName", "classz0_1_1Resource.html#a3f243e0db82d28663cf78eddb22e3d8f", null ],
+            [ "getId", "classz0_1_1Resource.html#aacd73d1717c6188dce04fd28d6dcc013", null ],
+            [ "getName", "classz0_1_1Resource.html#a55cfc7c860bc4e21ad6b5049f639a189", null ],
             [ "toString", "classz0_1_1Resource.html#acc18036adaea83856c3e6069e90a3f97", null ]
           ] ],
           [ "RigidBody", "classz0_1_1RigidBody.html", [
             [ "RigidBody", "classz0_1_1RigidBody.html#a79323e0fda48e05079378cbe0bee6749", null ],
-            [ "RigidBody", "classz0_1_1RigidBody.html#abe46ebcf415b84b7fb2e88c95016fed4", null ],
-            [ "setProperty", "classz0_1_1RigidBody.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ]
+            [ "RigidBody", "classz0_1_1RigidBody.html#abe46ebcf415b84b7fb2e88c95016fed4", null ]
           ] ],
           [ "ShaderMaterial", "classz0_1_1ShaderMaterial.html", [
             [ "ShaderMaterial", "classz0_1_1ShaderMaterial.html#a619d853c160afcd238fa2ee179d37426", null ],
             [ "ShaderMaterial", "classz0_1_1ShaderMaterial.html#a591dae470f143899a8393a7abce38884", null ],
-            [ "getFragFileName", "classz0_1_1ShaderMaterial.html#a1dc7dc2ae244217b872cb1a9ae331b1b", null ],
-            [ "getParameter", "classz0_1_1ShaderMaterial.html#a049a1938f8436bfc758ce235b7497565", null ],
-            [ "getVertFileName", "classz0_1_1ShaderMaterial.html#a573bfe7094b4d44505bd734334794d0a", null ],
-            [ "setParameter", "classz0_1_1ShaderMaterial.html#a36cdcf962c5c61d6525aa75caec12e5c", null ]
+            [ "getFragFileName", "classz0_1_1ShaderMaterial.html#acc448e08300778521aa86ffe89e26814", null ],
+            [ "getParameter", "classz0_1_1ShaderMaterial.html#a806d767266b18a7277e5abdf1a206ad4", null ],
+            [ "getVertFileName", "classz0_1_1ShaderMaterial.html#ab464de3d0a8187f2ae226910a3b7b84b", null ],
+            [ "setParameter", "classz0_1_1ShaderMaterial.html#a0694e959ac44ba3659bd243d61998ccc", null ]
           ] ],
           [ "Shape", "classz0_1_1Shape.html", null ],
           [ "Signal", "classz0_1_1Signal.html", [
@@ -666,7 +668,7 @@ var NAVTREE =
             [ "Skybox", "classz0_1_1Skybox.html#a13e417f38d66aefe3683a6120e6653e3", null ],
             [ "Skybox", "classz0_1_1Skybox.html#a1597c952d0dc64b800fb9bf0f8f99439", null ],
             [ "Skybox", "classz0_1_1Skybox.html#a3ddfb68451b6060e289b09955118c630", null ],
-            [ "getCubemap", "classz0_1_1Skybox.html#a14202cfc20e586b99718dc46506fa7ae", null ],
+            [ "getCubemap", "classz0_1_1Skybox.html#acd7a8cc3466dad4106024b12b1ea1a54", null ],
             [ "setCubemapFromFile", "classz0_1_1Skybox.html#a5055547a990600d97ac50b9a7056c9a3", null ],
             [ "setProperty", "classz0_1_1Skybox.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ]
           ] ],
@@ -676,19 +678,19 @@ var NAVTREE =
           [ "SpotLight", "classz0_1_1SpotLight.html", [
             [ "SpotLight", "classz0_1_1SpotLight.html#a4833320d37a2723087a9b6eb27b8b8ff", null ],
             [ "SpotLight", "classz0_1_1SpotLight.html#a6916673952f88232c61762fe998b4287", null ],
-            [ "getCutOff", "classz0_1_1SpotLight.html#abd8c118bd304be82dc4002196529db88", null ],
-            [ "getFov", "classz0_1_1SpotLight.html#a1a71158f75bae989558502b99e2ecb03", null ],
-            [ "getOuterCutOff", "classz0_1_1SpotLight.html#a7e53eeabf4481a389c2ba022477b9050", null ],
-            [ "setCutOff", "classz0_1_1SpotLight.html#aded28332b7611db18ed5ae89714a6d61", null ],
+            [ "getCutOff", "classz0_1_1SpotLight.html#a954ad7c463584ef26a096e83703412e4", null ],
+            [ "getFov", "classz0_1_1SpotLight.html#abc2ca861ac40c248c9755b318addcef8", null ],
+            [ "getOuterCutOff", "classz0_1_1SpotLight.html#ab6ae768107bddb65047b316970e8d5bc", null ],
+            [ "setCutOff", "classz0_1_1SpotLight.html#a75963dd1114ffabfd645204c1caecf3f", null ],
             [ "setOuterCutOff", "classz0_1_1SpotLight.html#ad12e3ca0d3c6396f898d16bd59056bed", null ],
             [ "setProperty", "classz0_1_1SpotLight.html#ac4a1d2e49be60bd4e614d05e4db933b1", null ]
           ] ],
           [ "StandardMaterial", "classz0_1_1StandardMaterial.html", [
             [ "TextureInfo", "structz0_1_1StandardMaterial_1_1TextureInfo.html", null ],
             [ "StandardMaterial", "classz0_1_1StandardMaterial.html#a98aecb0a0bb7a8c5761ebd88c7f5898f", null ],
-            [ "getAlbedoColor", "classz0_1_1StandardMaterial.html#a5e08c164fe6f1ff3e2b19ddfbe0605d5", null ],
-            [ "getAlbedoTexture", "classz0_1_1StandardMaterial.html#a2b8de7cd7015d1cc49e02fb47d80634b", null ],
-            [ "getNormalTexture", "classz0_1_1StandardMaterial.html#adbeb5c6e2bf2d6c203426c9101c1fa21", null ],
+            [ "getAlbedoColor", "classz0_1_1StandardMaterial.html#a9e0333f7dccbe3ecc672bfea29e06f2c", null ],
+            [ "getAlbedoTexture", "classz0_1_1StandardMaterial.html#afc245df4a4d7bc0d5685362df16264de", null ],
+            [ "getNormalTexture", "classz0_1_1StandardMaterial.html#a663246fba1bcd937c46e3a8f0b494a89", null ],
             [ "setAlbedoColor", "classz0_1_1StandardMaterial.html#a3448c2bc435b98219f972b3878d01dd6", null ],
             [ "setAlbedoTexture", "classz0_1_1StandardMaterial.html#a9522d00e693ad75432f0acfccc473f81", null ],
             [ "setNormalTexture", "classz0_1_1StandardMaterial.html#ace43e244cdd37793b0e0d56c0f5cbc65", null ]
@@ -729,17 +731,17 @@ var NAVTREE =
           ] ],
           [ "Viewport", "classz0_1_1Viewport.html", [
             [ "Viewport", "classz0_1_1Viewport.html#aab7c494ebb9842d817ed5923a41508d4", null ],
-            [ "getViewportPosition", "classz0_1_1Viewport.html#a4bf97386af386d85ac8d5ededd195bc4", null ],
-            [ "getViewportSize", "classz0_1_1Viewport.html#ab016686eb4b58793e0e3f1cd9d125d2b", null ],
-            [ "setViewportPosition", "classz0_1_1Viewport.html#a12ab52f6d792d842e892f96a28983dbc", null ],
-            [ "setViewportSize", "classz0_1_1Viewport.html#ab7fdf61c436b34517d0145a2286de607", null ]
+            [ "getViewportPosition", "classz0_1_1Viewport.html#a9fe99c4d3d8c2645fe98cc7038bcded5", null ],
+            [ "getViewportSize", "classz0_1_1Viewport.html#ac6728c0af38ac1c69195261e857e6259", null ],
+            [ "setViewportPosition", "classz0_1_1Viewport.html#af597f610917a0702e5eb690f268195e3", null ],
+            [ "setViewportSize", "classz0_1_1Viewport.html#afa956de3a1ae16fb5d55e3246ec5025c", null ]
           ] ],
           [ "VirtualFS", "classz0_1_1VirtualFS.html", null ],
           [ "Window", "classz0_1_1Window.html", [
             [ "close", "classz0_1_1Window.html#a5ae591df94fc66ccb85cbb6565368bca", null ],
-            [ "getHeight", "classz0_1_1Window.html#a41bfc989babe0999be4037c5b68119b5", null ],
-            [ "getWidth", "classz0_1_1Window.html#aca1b996bfd42e4d13365709e3fcab072", null ],
-            [ "shouldClose", "classz0_1_1Window.html#a831069e29b711e34bb2044bfdc7b5a51", null ],
+            [ "getHeight", "classz0_1_1Window.html#afb671e8ff01febf709d9074687f2bfb4", null ],
+            [ "getWidth", "classz0_1_1Window.html#a0af04d5df99f552fc7a05a4bf7f5c4e9", null ],
+            [ "shouldClose", "classz0_1_1Window.html#ae998a7faf00b40a9324d865d2e4ba7cc", null ],
             [ "toString", "classz0_1_1Window.html#acc18036adaea83856c3e6069e90a3f97", null ]
           ] ]
         ] ]
@@ -747,6 +749,7 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", [
         [ "AABB", "structz0_1_1AABB.html", null ],
+        [ "Track", "structz0_1_1Animation_1_1Track.html", null ],
         [ "TrackKeyValue", "structz0_1_1Animation_1_1TrackKeyValue.html", null ],
         [ "Playback", "structz0_1_1AnimationPlayer_1_1Playback.html", null ],
         [ "Application", "classz0_1_1Application.html", null ],
@@ -867,8 +870,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classz0_1_1Node.html#aa83dd31fea0c6e52cc6f71c25c7fc2b5",
-"classz0_1_1ui_1_1Window.html#a639675bb1d59c31249d5bc2d63ce6f02"
+"classz0_1_1Node.html#aa78040e62ff9b24361710dc9dab7dcc9",
+"classz0_1_1ui_1_1Window.html#a5efc8f0f738865cb698db79793a21946"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="DoxyPress 1.7.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>ZeroZero: z0 Namespace Reference</title>
+<title>ZeroZero Game Engine: z0 Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,10 +24,10 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">ZeroZero
+   <div id="projectname">ZeroZero Game Engine
       &#160;<span id="projectnumber">v0.0</span>
    </div>
-   <div id="projectbrief">An experimental 3D Engine</div>
+   <div id="projectbrief">A 3D game engine using Vulkan &amp; Jolt </div>
   </td>
  </tr>
  </tbody>
@@ -428,27 +428,34 @@ Enums</h2></td></tr>
 <tr class="separator:af5fb1c855e4857f45b94220718c66b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4473ef2b7691b3527766c1d3e210d05"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05">GamepadButton</a> : uint8_t { <br />
 &#160;&#160;<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a7fc56270e7a70fa81a5935b72eacbe29">A</a> = 0, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a04dd53a8e6c2306e9bbf944c1d6047f2">CROSS</a> = A, 
 <a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a9d5ed678fe57bcca610140957afab571">B</a> = 1, 
-<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a02129bb861061d1a052c592e2dc6b383">X</a> = 2, 
-<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a57cec4137b614c87cb4e24a3d003a3e0">Y</a> = 3, 
-<br />
-&#160;&#160;<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05ac951270e425b15fc20c64da4341c1d89">LB</a> = 4, 
-<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05ac8ee22e1fc2165dfd3d2b04aef93b2f2">RB</a> = 5, 
-<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a1dd26f1f1790f0b56d5752fb0fbecef0">BACK</a> = 6, 
-<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05ab078ffd28db767c502ac367053f6e0ac">START</a> = 7, 
-<br />
-&#160;&#160;<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05ac562607189d77eb9dfb707464c1e7b0b">LT</a> = 8, 
-<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a705610ed3e5ec724f5cb0d76a5fd3aa1">RT</a> = 9, 
-<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a53f4f819b43470f230aea73335a5f091">DPAD_UP</a> = 10, 
-<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a5faad20a625bae1d890868782aae45ba">DPAD_RIGHT</a> = 11, 
-<br />
-&#160;&#160;<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05aed0ea47a6800b933a16cd91169c338f7">DPAD_DOWN</a> = 12, 
-<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a2206bf25efcd102b0102f7ff4df45c99">DPAD_LEFT</a> = 13
-, <a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a04dd53a8e6c2306e9bbf944c1d6047f2">CROSS</a> = A, 
 <a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a0af50777920c1401ab975cab64c4d491">CIRCLE</a> = B, 
 <br />
-&#160;&#160;<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a12dec4e1f7ec620651b2b95c440ffac0">SQUARE</a> = X, 
-<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a9bcd89070cae224dce305f5011659ef4">TRIANGLE</a> = Y
+&#160;&#160;<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a02129bb861061d1a052c592e2dc6b383">X</a> = 2, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a12dec4e1f7ec620651b2b95c440ffac0">SQUARE</a> = X, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a57cec4137b614c87cb4e24a3d003a3e0">Y</a> = 3, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a9bcd89070cae224dce305f5011659ef4">TRIANGLE</a> = Y, 
+<br />
+&#160;&#160;<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05ac951270e425b15fc20c64da4341c1d89">LB</a> = 4, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a9ec4c0afd450ceac7adb81c3bcfc9732">L1</a> = LB, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05ac8ee22e1fc2165dfd3d2b04aef93b2f2">RB</a> = 5, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05acda522d4353b166cc2dee84673307b4e">R1</a> = RB, 
+<br />
+&#160;&#160;<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a1dd26f1f1790f0b56d5752fb0fbecef0">BACK</a> = 6, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05af5a0c27de72c2f069afab055d743f647">SHARE</a> = BACK, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05ab078ffd28db767c502ac367053f6e0ac">START</a> = 7, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a3ed53fbeb1eab0443561b68ca0c0b5cf">MENU</a> = START, 
+<br />
+&#160;&#160;<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05ac562607189d77eb9dfb707464c1e7b0b">LT</a> = 8, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a7e6aa2d53f6ee2b1a34b017fa403cb76">L2</a> = LT, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a705610ed3e5ec724f5cb0d76a5fd3aa1">RT</a> = 9, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a8c6d22ff6f63fc6711cfa315cb80b314">R2</a> = RT, 
+<br />
+&#160;&#160;<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a53f4f819b43470f230aea73335a5f091">DPAD_UP</a> = 10, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a5faad20a625bae1d890868782aae45ba">DPAD_RIGHT</a> = 11, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05aed0ea47a6800b933a16cd91169c338f7">DPAD_DOWN</a> = 12, 
+<a class="el" href="namespacez0.html#ab4473ef2b7691b3527766c1d3e210d05a2206bf25efcd102b0102f7ff4df45c99">DPAD_LEFT</a> = 13
 <br />
  }</td></tr>
 <tr class="separator:ab4473ef2b7691b3527766c1d3e210d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -505,6 +512,8 @@ Enums</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a83ffc304cbdd6bd519b3d613227deaec"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez0.html#a83ffc304cbdd6bd519b3d613227deaec">removeNumericSuffix</a> (const string &amp;str)</td></tr>
+<tr class="separator:a83ffc304cbdd6bd519b3d613227deaec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafd75ede521a0d5ddad1423ba725fb28"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez0.html#aafd75ede521a0d5ddad1423ba725fb28">die</a> (convertible_to&lt; string_view &gt; auto &amp;&amp;...s)</td></tr>
 <tr class="separator:aafd75ede521a0d5ddad1423ba725fb28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a418d9db6cd369714ed78657ff237550e"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez0.html#a418d9db6cd369714ed78657ff237550e">randomi</a> (uint32_t max)</td></tr>
@@ -554,6 +563,8 @@ Variables</h2></td></tr>
 <tr class="separator:a8fef8f20d9338a17801bc8e3aafe0ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02cf95d2588145b040ccfa45fa3c3b67"><td class="memItemLeft" align="right" valign="top">constexpr vec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez0.html#a02cf95d2588145b040ccfa45fa3c3b67">VECTOR_SCALE</a> {1000.0f}</td></tr>
 <tr class="separator:a02cf95d2588145b040ccfa45fa3c3b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66fa48a09304b4221cd88f2081bac79f"><td class="memItemLeft" align="right" valign="top">const regex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacez0.html#a66fa48a09304b4221cd88f2081bac79f">numericSuffixPattern</a> {R&quot;(.d+$)&quot;}</td></tr>
+<tr class="separator:a66fa48a09304b4221cd88f2081bac79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The z0 namespace </p>
@@ -814,23 +825,43 @@ Variables</h2></td></tr>
 <table class="fieldtable">
 <tr><th>Enum Values</th><th>Documentation</th></tr><tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a7fc56270e7a70fa81a5935b72eacbe29"></a>A&#160;</td><td class="fielddoc"><p>A or X. </p>
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a04dd53a8e6c2306e9bbf944c1d6047f2"></a>CROSS&#160;</td><td class="fielddoc"><p>A or X. </p>
+</td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a9d5ed678fe57bcca610140957afab571"></a>B&#160;</td><td class="fielddoc"><p>B or ○. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a0af50777920c1401ab975cab64c4d491"></a>CIRCLE&#160;</td><td class="fielddoc"><p>B or ○. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a02129bb861061d1a052c592e2dc6b383"></a>X&#160;</td><td class="fielddoc"><p>X or □. </p>
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a12dec4e1f7ec620651b2b95c440ffac0"></a>SQUARE&#160;</td><td class="fielddoc"><p>X or □. </p>
+</td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a57cec4137b614c87cb4e24a3d003a3e0"></a>Y&#160;</td><td class="fielddoc"><p>Y or △. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a9bcd89070cae224dce305f5011659ef4"></a>TRIANGLE&#160;</td><td class="fielddoc"><p>Y or △. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05ac951270e425b15fc20c64da4341c1d89"></a>LB&#160;</td><td class="fielddoc"><p>Left shoulder/bumper. </p>
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a9ec4c0afd450ceac7adb81c3bcfc9732"></a>L1&#160;</td><td class="fielddoc"><p>Left shoulder/bumper. </p>
+</td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05ac8ee22e1fc2165dfd3d2b04aef93b2f2"></a>RB&#160;</td><td class="fielddoc"><p>Right shoulder/bumper. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a1dd26f1f1790f0b56d5752fb0fbecef0"></a>BACK&#160;</td><td class="fielddoc"><p>Back. </p>
+<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05acda522d4353b166cc2dee84673307b4e"></a>R1&#160;</td><td class="fielddoc"><p>Right shoulder/bumper. </p>
 </td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05ab078ffd28db767c502ac367053f6e0ac"></a>START&#160;</td><td class="fielddoc"><p>Start. </p>
+<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a1dd26f1f1790f0b56d5752fb0fbecef0"></a>BACK&#160;</td><td class="fielddoc"><p>Back/Share. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05af5a0c27de72c2f069afab055d743f647"></a>SHARE&#160;</td><td class="fielddoc"><p>Back/Share. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05ab078ffd28db767c502ac367053f6e0ac"></a>START&#160;</td><td class="fielddoc"><p>Start/Menu. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a3ed53fbeb1eab0443561b68ca0c0b5cf"></a>MENU&#160;</td><td class="fielddoc"><p>Start/Menu. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05ac562607189d77eb9dfb707464c1e7b0b"></a>LT&#160;</td><td class="fielddoc"><p>Left trigger. </p>
 </td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a7e6aa2d53f6ee2b1a34b017fa403cb76"></a>L2&#160;</td><td class="fielddoc"><p>Left trigger. </p>
+</td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a705610ed3e5ec724f5cb0d76a5fd3aa1"></a>RT&#160;</td><td class="fielddoc"><p>Right trigger. </p>
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a8c6d22ff6f63fc6711cfa315cb80b314"></a>R2&#160;</td><td class="fielddoc"><p>Right trigger. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a53f4f819b43470f230aea73335a5f091"></a>DPAD_UP&#160;</td><td class="fielddoc"><p>Directional hat ↑. </p>
 </td></tr>
@@ -839,14 +870,6 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05aed0ea47a6800b933a16cd91169c338f7"></a>DPAD_DOWN&#160;</td><td class="fielddoc"><p>Directional hat ↓. </p>
 </td></tr>
 <tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a2206bf25efcd102b0102f7ff4df45c99"></a>DPAD_LEFT&#160;</td><td class="fielddoc"><p>Directional hat ←. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a04dd53a8e6c2306e9bbf944c1d6047f2"></a>CROSS&#160;</td><td class="fielddoc"><p>A or X. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a0af50777920c1401ab975cab64c4d491"></a>CIRCLE&#160;</td><td class="fielddoc"><p>B or ○. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a12dec4e1f7ec620651b2b95c440ffac0"></a>SQUARE&#160;</td><td class="fielddoc"><p>X or □. </p>
-</td></tr>
-<tr><td class="fieldname"><a class="anchor" id="ab4473ef2b7691b3527766c1d3e210d05a9bcd89070cae224dce305f5011659ef4"></a>TRIANGLE&#160;</td><td class="fielddoc"><p>Y or △. </p>
 </td></tr>
 </table>
 
@@ -1664,6 +1687,31 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a83ffc304cbdd6bd519b3d613227deaec"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto z0::removeNumericSuffix </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Removes the Blender numeric suffix from a string </p>
+
+</div>
+</div>
 <a class="anchor" id="a3edc3d718dc144172c63f732bb5d3cf4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1902,6 +1950,19 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a66fa48a09304b4221cd88f2081bac79f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const regex numericSuffixPattern {R&quot;(.d+$)&quot;}</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Blender numeric suffix pattern for names </p>
+
+</div>
+</div>
 <a class="anchor" id="a45a8b5ac66a3818e2768e719be4bebbc"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2034,7 +2095,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacez0.html">z0</a></li>
-    <li class="footer">Generated on lun. févr. 24 2025 09:06:59 for ZeroZero &nbsp; by
+    <li class="footer">Generated on jeu. févr. 27 2025 20:23:23 for ZeroZero Game Engine &nbsp; by
     <a href="https://www.copperspice.com/documentation-doxypress.html">
     <img class="footer" src="doxypress.png" alt="DoxyPress"/></a> 1.7.0 </li>
   </ul>

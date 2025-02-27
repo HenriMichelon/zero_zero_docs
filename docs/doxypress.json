@@ -413,9 +413,9 @@
         "skip-function-macros": true
     },
     "project": {
-        "project-brief": "An experimental 3D Engine",
+        "project-brief": "A 3D game engine using Vulkan & Jolt ",
         "project-logo": "",
-        "project-name": "ZeroZero",
+        "project-name": "ZeroZero Game Engine",
         "project-version": "v0.0"
     },
     "size-height": 1009,
