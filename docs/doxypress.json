@@ -281,7 +281,7 @@
         "formula-macrofile": "",
         "formula-transparent": true,
         "generate-html": true,
-        "generate-treeview": true,
+        "generate-treeview": false,
         "ghostscript": "",
         "html-colorstyle-gamma": 80,
         "html-colorstyle-hue": 220,
@@ -391,6 +391,7 @@
         "xml-output": "xml",
         "xml-program-listing": true
     },
+    "pathPrior": "C:/Users/hmich/Documents/zero_zero_docs/docs",
     "pos-x": -8,
     "pos-y": -8,
     "preprocessor": {
@@ -418,6 +419,9 @@
         "project-name": "ZeroZero Game Engine",
         "project-version": "v0.0"
     },
+    "recent-files": [
+        "C:/Users/hmich/Documents/zero_zero_docs/docs/doxypress.json"
+    ],
     "size-height": 1009,
     "size-width": 1920,
     "source": {
